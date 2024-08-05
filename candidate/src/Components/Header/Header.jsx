@@ -1,11 +1,29 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { JobContext } from "../../Context/JobContext";
 
 const Header = () => {
+  const [announcement, setAnnouncement] = useState(true);
   const { handleOpenForm, isSticky, handleOpen } = useContext(JobContext);
   return (
     <header className="heater-transparent">
+      <div
+        className={`fixed inset-x-0 bottom-0 ${announcement ? "" : "hidden"}`}
+      >
+        <div className="bg-indigo-600 flex justify-between px-4 py-3 text-white">
+          <p className="text-center text-sm font-medium text-white">
+            Love Kamai?
+            <a href="#" className="inline-block underline text-white">
+              {" "}
+              Check out our premium{" "}
+            </a>
+          </p>
+          <i
+            class="fal fa-times text-white"
+            onClick={() => setAnnouncement(false)}
+          ></i>
+        </div>
+      </div>
       <div className={`jm-header-area header-sticky sticky`}>
         <div className="container">
           <div className="jm-header-main jm-header-padding ">

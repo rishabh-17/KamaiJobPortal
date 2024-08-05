@@ -1,39 +1,53 @@
-import React, { useState } from 'react';
-import GridJobs from './GridJobs';
-import ListJobs from './ListJobs';
-import SalaryFilter from './SalaryFilter';
-import JobTypeFilter from './JobTypeFilter';
-import AreaRangeFilter from './AreaRangeFilter';
-import JobCategoryFilter from './JobCategoryFilter';
-import TagFilter from './TagFilter';
-import SearchBar from './SearchBar';
+import React, { useState } from "react";
+import GridJobs from "./GridJobs";
+import ListJobs from "./ListJobs";
+import SalaryFilter from "./SalaryFilter";
+import JobTypeFilter from "./JobTypeFilter";
+import AreaRangeFilter from "./AreaRangeFilter";
+import JobCategoryFilter from "./JobCategoryFilter";
+import TagFilter from "./TagFilter";
+import SearchBar from "./SearchBar";
 
-const BrowseJob = ({view}) => {
-    const [activeTab, setActiveTab] = useState(view);
+const BrowseJob = ({ view }) => {
+  const [activeTab, setActiveTab] = useState(view);
 
-    const handleTabChange = (tab) => {
-        setActiveTab(tab);
-    };
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+  };
   return (
-    <div className="container">
-      <div className="jm-browse-job-wrap pt-100 pb-60">
-        <div className="row">
-          <div className="col-xl-8 col-lg-8">
+    <div className="containe">
+      <div className="jm-browse-job-wrap pt-100 pb-60 mx-24">
+        <div className="row justify-between">
+          <div className="col-xl-3 col-lg-3 border border-gray-30 bg-white rounded-xl p-4">
+            <div className="jm-browse-job-sidebar">
+              <SearchBar />
+              <AreaRangeFilter />
+              <JobTypeFilter />
+              <JobCategoryFilter />
+              <SalaryFilter />
+              <TagFilter />
+            </div>
+          </div>
+          <div className="col-xl-7 col-lg-7">
             <div className="jm-browse-job-tab mb-30">
               <div className="jm-browse-job-tab-left">
                 <nav>
                   <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <button
-                      className={`nav-link ${activeTab === 'grid' ? 'active' : ''}`}
+                      className={`nav-link ${
+                        activeTab === "grid" ? "active" : ""
+                      }`}
                       id="nav-grid-tab"
-                      onClick={() => handleTabChange('grid')}
+                      onClick={() => handleTabChange("grid")}
                     >
                       <i className="fa-solid fa-grid"></i>
                     </button>
                     <button
-                      className={`nav-link ${activeTab === 'list' ? 'active' : ''}`}
+                      className={`nav-link ${
+                        activeTab === "list" ? "active" : ""
+                      }`}
                       id="nav-list-tab"
-                      onClick={() => handleTabChange('list')}
+                      onClick={() => handleTabChange("list")}
                     >
                       <i className="fa-solid fa-list-ul"></i>
                     </button>
@@ -52,25 +66,30 @@ const BrowseJob = ({view}) => {
               </div>
             </div>
             <div className="tab-content" id="nav-tabContent">
-              <div className={`tab-pane fade ${activeTab === 'grid' ? 'show active' : ''}`} id="nav-grid" role="tabpanel" aria-labelledby="nav-grid-tab">
+              <div
+                className={`tab-pane fade ${
+                  activeTab === "grid" ? "show active" : ""
+                }`}
+                id="nav-grid"
+                role="tabpanel"
+                aria-labelledby="nav-grid-tab"
+              >
                 <GridJobs />
               </div>
-              <div className={`tab-pane fade ${activeTab === 'list' ? 'show active' : ''}`} id="nav-list" role="tabpanel" aria-labelledby="nav-list-tab">
+              <div
+                className={`tab-pane fade ${
+                  activeTab === "list" ? "show active" : ""
+                }`}
+                id="nav-list"
+                role="tabpanel"
+                aria-labelledby="nav-list-tab"
+              >
                 <ListJobs />
               </div>
             </div>
           </div>
-            <div className="col-xl-4 col-lg-4">
-                <div className="jm-browse-job-sidebar ml-40">
-                    <SearchBar/>
-                    <AreaRangeFilter/>
-                    <JobTypeFilter/>
-                    <JobCategoryFilter/>
-                    <SalaryFilter/>
-                    <TagFilter/>
-                
-                </div>
-            </div>
+
+          <div className="col-xl-2 col-lg-2"></div>
         </div>
       </div>
     </div>
