@@ -89,7 +89,13 @@ const BrowseJob = ({ view }) => {
             </div>
           </div>
 
-          <div className="col-xl-2 col-lg-2"></div>
+          <div className="col-xl-2 col-lg-2 bg-indigo-900 h-96 rounded-xl p-4 text-center">
+            <p className=" text-amber-600 font-bold">Love Kamai ?</p>
+            <p className=" text-white">Try our premium for free !</p>
+            <button className="btn btn-primary bg-amber-600 my-3 hover:bg-white hover:text-amber-600 hover:border-amber-600">
+              Unlock
+            </button>
+          </div>
         </div>
       </div>
     </div>
