@@ -1719,6 +1719,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   --clr-common-black-soft: #38383A;
   --clr-common-black-deep: #000000;
   --clr-body-heading: #2c2c2c;
+  --clr-body-hover: #F59300;
   --clr-body-text: #777;
   --clr-color-orange: #FCAA04;
   --clr-color-orange-2: #ffd139;
@@ -2296,7 +2297,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: translateY(1px);
 }
 .jm-banner-layout-2-btn:hover {
-  background-color: var(--clr-common-black);
+  background-color: var(--clr-body-hover);
   color: var(--clr-common-white);
 }
 
@@ -2455,17 +2456,17 @@ input:focus::placeholder, textarea:focus::placeholder {
 .jm-theme-btn:hover {
   background-color: var(--clr-common-white);
   border-color: var(--clr-theme-primary);
-  color: var(--clr-body-heading);
+  color: var(--clr-body-hover);
 }
 
 .jm-theme-btn-2:hover {
   background-color: var(--clr-common-white);
   border-color: transparent;
-  color: var(--clr-body-heading);
+  color: var(--clr-body-hover);
 }
 
 .jm-theme-btn-black:hover {
-  background-color: #282828;
+  background-color: #F59300;
   border-color: transparent;
   color: var(--clr-common-white);
 }
@@ -6921,7 +6922,7 @@ blog sidebar area
   margin-left: -3px;
 }
 .jm-latest-job-layout-3-wrapper:hover:before {
-  background-color: var(--clr-theme-primary);
+  background-color: var(--clr-body-hover);
 }
 
 .jm-latest-job-layout-3-img {
@@ -6994,7 +6995,7 @@ blog sidebar area
 }
 
 .jm-latest-job-layout-3-submit:hover {
-  background-color: var(--clr-body-heading);
+  background-color: var(--clr-body-hover);
   color: #fff;
 }
 
@@ -7034,7 +7035,7 @@ blog sidebar area
 }
 .jm-job-acc:hover {
   border-color: var(--clr-theme-primary);
-  color: var(--clr-body-heading);
+  color: var(--clr-body-hover);
   background-color: transparent;
 }
 
@@ -7134,7 +7135,7 @@ blog sidebar area
   transform: translate(-50%, -50%);
 }
 .jm-side-video-pop:hover {
-  background-color: var(--clr-body-heading);
+  background-color: var(--clr-body-hover);
   color: #fff;
 }
 .jm-side-video-pop::after {
@@ -7196,7 +7197,7 @@ blog sidebar area
 }
 
 .jm-job-overview-btn.job-bookmark {
-  background-color: var(--clr-body-heading);
+  background-color: var(--clr-body-hover);
   color: #fff;
 }
 .jm-job-overview-btn.job-bookmark:hover {
@@ -7391,7 +7392,7 @@ blog sidebar area
   line-height: 35px;
 }
 .jm-job-content-info-skill-meta a:hover {
-  background-color: var(--clr-body-heading);
+  background-color: var(--clr-body-hover);
   color: #fff;
 }
 
@@ -8415,7 +8416,7 @@ blog sidebar area
   transform: translateY(65px);
 }
 .team-item-jm:hover .team-content-jm-title:hover a {
-  color: var(--clr-body-heading);
+  color: var(--clr-body-hover);
 }
 .team-item-jm:hover .team-content-jm::before {
   bottom: -35px;
@@ -8641,7 +8642,7 @@ blog sidebar area
   }
 }
 .jm-candidates-search-wrapper-inner-input-submit:hover {
-  background-color: var(--clr-body-heading);
+  background-color: var(--clr-body-hover);
   color: #fff;
 }
 
@@ -8680,7 +8681,7 @@ blog sidebar area
   transform: translateY(65px);
 }
 .jm-candidate-wrapper .jm-team-active-2 .swiper-slide.swiper-slide-active .team-item-jm .team-content-jm-title:hover a {
-  color: var(--clr-body-heading);
+  color: var(--clr-body-hover);
 }
 .jm-candidate-wrapper .jm-team-active-2 .swiper-slide.swiper-slide-active .team-item-jm .team-content-jm::before {
   bottom: -35px;
@@ -11041,7 +11042,7 @@ blog sidebar area
   flex: 0;
 }
 .jm-footer-top-subscribe-form-3 form button:hover {
-  background: var(--clr-body-heading);
+  background: var(--clr-body-hover);
 }
 @media (max-width: 767px) {
   .jm-footer-top-subscribe-form-3 form {
