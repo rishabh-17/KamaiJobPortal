@@ -16,9 +16,9 @@ const BrowseJob = ({ view }) => {
   };
   return (
     <div className="containe">
-      <div className="jm-browse-job-wrap pt-100 pb-60 mx-24">
+      <div className="jm-browse-job-wrap pt-100 pb-60 mx-4 lg:mx-24">
         <div className="row justify-between">
-          <div className="col-xl-3 col-lg-3 border border-gray-30 bg-white rounded-xl p-4">
+          <div className="col-xl-3 col-lg-3 col-md-4 bg-white rounded-xl px-0 mx-0">
             <div className="jm-browse-job-sidebar">
               <SearchBar />
               <AreaRangeFilter />
@@ -28,7 +28,7 @@ const BrowseJob = ({ view }) => {
               <TagFilter />
             </div>
           </div>
-          <div className="col-xl-7 col-lg-7">
+          <div className="col-xl-7 col-lg-7 col-md-8">
             <div className="jm-browse-job-tab mb-30">
               <div className="jm-browse-job-tab-left">
                 <nav>
@@ -89,7 +89,7 @@ const BrowseJob = ({ view }) => {
             </div>
           </div>
 
-          <div className="col-xl-2 col-lg-2 bg-indigo-900 h-96 rounded-xl p-4 text-center">
+          <div className="col-xl-2 col-lg-2 col-md-2  bg-indigo-900 h-96 rounded-xl p-4 text-center">
             <p className=" text-amber-600 font-bold">Love Kamai ?</p>
             <p className=" text-white font-bold">Try our premium for free !</p>
 

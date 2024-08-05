@@ -3708,7 +3708,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .jm-browse-job-sidebar {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -11354,7 +11354,7 @@ span.popular-plan {
   color: var(--clr-body-text);
 }
 .MuiSlider-root {
-  color: #00b04d !important;
+  color: var(--clr-body-hover) !important;
 }
 .MuiPaper-root{
   margin: 0 !important;
