@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { TypeAnimation } from "react-type-animation";
 const Banner2 = () => {
   return (
     <section className="jm-banner-area-2 banner-hieght bg-default jm-overlay h-jobmot-banner-2">
@@ -14,7 +14,23 @@ const Banner2 = () => {
                   <br />
                   <span className="text-[#F59300]">
                     {" "}
-                    Perfect career path
+                    <TypeAnimation
+                      sequence={[
+                        // Same substring at the start will only be typed out once, initially
+                        "Perfect career path",
+                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        "Journey To Your Dream Job",
+                        1000,
+                        "Perfect career path",
+                        1000,
+                        "Journey To Your Dream Job",
+                        1000,
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      // style={{ fontSize: '2em', display: 'inline-block' }}
+                      repeat={Infinity}
+                    />
                   </span>{" "}
                   <br />{" "}
                   <span className="jm-banner-bold-amout">starts here</span>
