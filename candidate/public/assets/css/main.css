@@ -2025,10 +2025,6 @@ input:focus::placeholder, textarea:focus::placeholder {
   width: 28px;
 }
 
-.jm-header-right-2 .jm-navbar-mobile-sign span {
-  background-color: var(--clr-common-white);
-}
-
 .jm-header-area-2.header-sticky.sticky {
   position: fixed;
   top: 0;
@@ -3458,7 +3454,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 .side-info {
   width: 100%;
   max-width: 400px;
-  background-color: #0C1308;
+  background-color: var(--clr-bg-gray);
   box-shadow: 0 13px 29px rgba(4, 0, 23, 0.1);
   height: 100%;
   position: fixed;
@@ -3533,7 +3529,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 /* sidebar contact info */
 .jm-sidebar-contact-title {
   font-size: 24px;
-  color: var(--clr-common-white);
+  color: var(--clr-theme-primary);
 }
 
 .jm-sidebar-contact > a {
@@ -6058,8 +6054,8 @@ blog sidebar area
 }
 
 .jm-register-btn:hover {
-  background-color: var(--clr-common-white);
-  color: var(--clr-common-black);
+  background-color: var(--clr-body-hover);
+  color: var(--clr-common-white);
 }
 
 .title38 {
@@ -8445,7 +8441,7 @@ blog sidebar area
   justify-content: center;
 }
 .theme-btn-jm:hover {
-  background-color: var(--clr-body-heading);
+  background-color: var(--clr-body-hover);
   color: #fff;
 }
 
@@ -10198,7 +10194,9 @@ blog sidebar area
   line-height: 1;
   padding: 6px 8px;
   margin-bottom: 6px;
-  background-color: #ECECEC;
+  background-color: #FCAA04;
+  color: #fff;
+
 }
 .jm-latest-job-meta-wrapper a:last-child {
   margin-right: 0;
