@@ -5,8 +5,8 @@ import { JobContext } from '../../Context/JobContext'
 const Header2 = () => {
     const {handleOpenForm, isSticky,handleOpen} = useContext(JobContext)
   return (
-    <header className="heater-transparent">
-        <div className={`jm-header-area-2 jm_border_bottom jm-header-padding header-sticky ${isSticky? 'sticky': ''}`}>
+    <header className="heater-transparent bg-white">
+        <div className={`jm-header-area-2 jm_border_bottom jm-header-padding header-sticky sticky bg-white`}>
             <div className="container">
                 <div className="row align-items-center ">
                     <div className="col-xl-3 col-lg-3 col-7">
@@ -18,11 +18,11 @@ const Header2 = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block">
                         <div className="jm-header-main-menu text-center jm-header-menu-2">
-                            <nav className="jm-mobile-menu" id="jm-mobile-menu">
+                            <nav className="jm-mobile-menu" id="jm-mobile-menu text-black">
                                 <ul>
-                                    <li className="menu-has-children">
+                                    <li className="menu-has-children text-black">
                                         <Link to="/">Home</Link>
-                                        <ul className="sub-menu">
+                                        <ul className="sub-menu text-black">
                                             <li><Link to="/">Home 1</Link></li>
                                             <li><Link to="/homePage2">Home 2</Link></li>
                                         </ul>

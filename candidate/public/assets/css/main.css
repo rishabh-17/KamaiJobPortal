@@ -1723,8 +1723,8 @@ input:focus::placeholder, textarea:focus::placeholder {
   --clr-color-orange: #FCAA04;
   --clr-color-orange-2: #ffd139;
   --clr-color-orange-3: #FFCD00;
-  --clr-theme-primary: #00B04D;
-  --clr-theme-primary-dark: #1e8d4e;
+  --clr-theme-primary: #130160;
+  --clr-theme-primary-dark: #130160;
   --clr-theme-primary-soft: #fff5f5;
   --clr-bg-gray: #F6F6F6;
   --clr-bg-gray-2: #F1F1F1;
@@ -2031,7 +2031,6 @@ input:focus::placeholder, textarea:focus::placeholder {
 .jm-header-area-2.header-sticky.sticky {
   position: fixed;
   top: 0;
-  background-color: #282828;
   z-index: 99;
   left: 0;
   right: 0;
@@ -2064,12 +2063,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   content: "";
   background-color: rgba(255, 255, 255, 0.4);
 }
-.jm-header-area-2 .jm-header-main-menu ul li a {
-  color: var(--clr-common-white);
-}
-.jm-header-area-2 .jm-header-right-2 .jm-search {
-  color: #fff;
-}
+
 .jm-header-area-2:is(.header-sticky.sticky) .jm-header-main-menu:before {
   background-color: #3c3c3c;
 }
