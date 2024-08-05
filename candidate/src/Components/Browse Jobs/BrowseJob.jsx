@@ -15,8 +15,8 @@ const BrowseJob = ({ view }) => {
     setActiveTab(tab);
   };
   return (
-    <div className="containe">
-      <div className="jm-browse-job-wrap pt-100 pb-60 mx-4 lg:mx-24">
+    <div className="container">
+      <div className="jm-browse-job-wrap pt-100 pb-60 lg:mx-4 xl:mx-24 ">
         <div className="row justify-between">
           <div className="col-xl-3 col-lg-3 col-md-4 bg-white rounded-xl px-0 mx-0">
             <div className="jm-browse-job-sidebar">
