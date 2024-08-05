@@ -1751,7 +1751,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 
 .light-bg {
-  background: #f1f7f4;
+  background: #fdeccb;
 }
 
 .no-after::after {
@@ -2491,7 +2491,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   font-size: 16px;
   font-weight: 400;
   background-color: transparent;
-  border-color: #f1f7f4;
+  border-color: #FCEBD1;
   color: var(--clr-body-heading);
 }
 .jm-border-btn:hover {
@@ -5270,7 +5270,7 @@ blog sidebar area
   font-size: 16px;
 }
 .jm-category-item-2 a:hover {
-  background: #f1f7f4;
+  background: #FCEBD1;
 }
 .jm-category-item-2:last-child a {
   border-bottom: 0;
@@ -5292,7 +5292,7 @@ blog sidebar area
 .jm-category-item-3 {
   position: relative;
   text-align: center;
-  background: #f1f7f4;
+  background: #FCEBD1;
   padding: 30px 10px;
 }
 
@@ -6561,7 +6561,7 @@ blog sidebar area
 }
 
 .jm-job-item-3 {
-  background-color: #f1f7f4;
+  background-color: #FCEBD1;
   padding-top: 30px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -6633,7 +6633,7 @@ blog sidebar area
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
-  border: 1px solid #f1f7f4;
+  border: 1px solid #FCEBD1;
   background-color: #fff;
   position: relative;
 }
@@ -6644,7 +6644,7 @@ blog sidebar area
   content: "";
   width: 1px;
   height: 100%;
-  background-color: #f1f7f4;
+  background-color: #FCEBD1;
   transform: translateX(-50%);
 }
 .jm-job-item-bottom-3 .jm-job-item-btn-3 {
@@ -8761,7 +8761,7 @@ blog sidebar area
   width: 35px;
   height: 35px;
   line-height: 35px;
-  background: #f1f7f4;
+  background: #FCEBD1;
   text-align: center;
   border-radius: 50%;
   color: var(--clr-body-text);
@@ -8810,7 +8810,7 @@ blog sidebar area
   left: -35px;
   top: 0;
   content: "";
-  background: #f1f7f4;
+  background: #FCEBD1;
   width: 50px;
   height: 50px;
   transform: rotate(45deg);
@@ -8820,7 +8820,7 @@ blog sidebar area
   right: -35px;
   top: 0;
   content: "";
-  background: #f1f7f4;
+  background: #FCEBD1;
   width: 50px;
   height: 50px;
   transform: rotate(45deg);
@@ -9839,7 +9839,7 @@ blog sidebar area
   transition: all 0.3s linear 0s;
 }
 .jm-brand-item:hover {
-  background: #f1f7f4;
+  background: #FCEBD1;
 }
 
 .jm-brand-area-2 {
@@ -9861,7 +9861,7 @@ blog sidebar area
   transition: all 0.3s linear 0s;
 }
 .jm-brand-item-2:hover {
-  background: #f1f7f4;
+  background: #FCEBD1;
 }
 
 .jm-brand-ellipse_1 {
@@ -9934,7 +9934,7 @@ blog sidebar area
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: #f1f7f4;
+  background: #FCEBD1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .jm-browse-job-tab {
