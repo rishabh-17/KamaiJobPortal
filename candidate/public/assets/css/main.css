@@ -11413,10 +11413,11 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav {
-	background: #0c1308 none repeat scroll 0 0;
+	background: var(--clr-common-white) none repeat scroll 0 0;
 	float: left;
 	margin-top: 15px;
 	width: 100%;
+  color: var(--clr-common-black);
 }
 
 .mean-container .mean-nav ul {
@@ -11437,7 +11438,7 @@ a.meanmenu-reveal {
 
 .mean-container .mean-nav ul li a {
 	border-top: 1px solid #4d4b4b;
-	color: #fff;
+	color: var(--clr-common-black);
 	display: block;
 	float: left;
 	margin: 0;
@@ -11507,7 +11508,8 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a.mean-expand:hover {
-	background: rgba(0,0,0,0.9);
+	background: var(--clr-color-orange);
+  color: var(--clr-common-white);
 }
 
 .mean-container .mean-push {
