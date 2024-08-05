@@ -10,7 +10,7 @@ const Banner2 = () => {
                     <div className="jm-banner-content-static">
                         <div className="jm-banner-content-haed text-center">
                             <h2 className="jm-banner-content-title-3">
-                                We Offer <span className="jm-banner-bold-amount">25K+</span><br/>Job Vacancies Right Now
+                                <span className="jm-banner-bold-amount">Finding your</span> <br /><span className='text-[#F59300]'> Perfect career path</span> <br /> <span className="jm-banner-bold-amount">starts here</span>
                             </h2>
                             <span className="jm-banner-sub-text">Find Jobs, Employment & Career Opportunities</span>
                             <p>There are many variations of passages of Lorem Ipsum Fasts <br/>
