@@ -2844,26 +2844,26 @@ input:focus::placeholder, textarea:focus::placeholder {
 ******************************************************* 
 *************************************************************** */
 .banner-hieght {
-  min-height: 910px;
+  min-height: 610px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .banner-hieght {
-    min-height: 800px;
+    min-height: 600px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .banner-hieght {
-    min-height: 800px;
+    min-height: 600px;
   }
 }
 @media (max-width: 767px) {
   .banner-hieght {
-    min-height: 750px;
+    min-height: 650px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-hieght {
-    min-height: 700px;
+    min-height: 600px;
   }
 }
 
