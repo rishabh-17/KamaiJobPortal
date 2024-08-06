@@ -1,14 +1,14 @@
-import React from 'react'
-import Breadcrumb from '../Breadcrumb/Breadcrumb'
-import JobSearch from '../Job Search/JobSearch'
+import React from "react";
+import Breadcrumb from "../Breadcrumb/Breadcrumb";
+import JobSearch from "../Job Search/JobSearch";
 
 const CandidatePageMain = () => {
   return (
     <main>
-        <Breadcrumb topic={"Candidate"} topicSpan={"Candidate Grid"}/>
-        <JobSearch/>
+      {/* <Breadcrumb topic={"Candidate"} topicSpan={"Candidate Grid"}/> */}
+      <JobSearch />
     </main>
-  )
-}
+  );
+};
 
-export default CandidatePageMain
+export default CandidatePageMain;
