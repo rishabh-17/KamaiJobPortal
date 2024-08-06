@@ -1990,6 +1990,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   background: var(--clr-body-hover);
 }
 
+.light-bg {
+  color:white;
+}
+
 .no-after::after {
   display: none;
 }
@@ -9147,20 +9151,21 @@ blog sidebar area
   border-bottom: 1px solid #ECECEC;
   padding: 32px 50px;
   text-align: center;
-  background-color: #ECECEC;
+  background-color: var(--clr-body-hover);
 }
 .jm-price-item-price-2 .title {
   font-size: 50px;
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 0;
+  color: #fff;
 }
 .jm-price-item-price-2 .title small {
   font-size: 35px;
 }
 .jm-price-item-price-2 .title span {
   font-size: 17px;
-  color: var(--clr-body-heading);
+  color: #fff;
 }
 
 .active .jm-price-item-price-2 {
