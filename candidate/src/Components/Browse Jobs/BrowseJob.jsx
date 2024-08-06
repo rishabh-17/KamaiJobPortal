@@ -29,7 +29,7 @@ const BrowseJob = ({ view }) => {
             </div>
           </div>
           <div className="col-xl-7 col-lg-7 col-md-8">
-            <div className="jm-browse-job-tab mb-30">
+            <div className="jm-browse-job-tab">
               <div className="jm-browse-job-tab-left">
                 <nav>
                   <div className="nav nav-tabs" id="nav-tab" role="tablist">
