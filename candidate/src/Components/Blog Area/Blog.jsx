@@ -19,7 +19,7 @@ const Blog = () => {
         <div className="row justify-content-center">
           <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="jm-blog-item jm-blog-layout-2 mb-55">
-              <div className="jm-blog-item-img w_img">
+              <div className="jm-blog-item-img w_img w-full h-[300px]">
                 <Link to="/blogDetailsPage">
                   <img src="assets/img/blog/1.jpg" alt="Image Not Found" />
                 </Link>
@@ -54,7 +54,7 @@ const Blog = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="jm-blog-item jm-blog-layout-2 mb-55">
-              <div className="jm-blog-item-img w_img">
+              <div className="jm-blog-item-img w_img w-full h-[300px]">
                 <Link to="/blogDetailsPage">
                   <img src="assets/img/blog/4.jpg" alt="Image Not Found" />
                 </Link>
@@ -89,7 +89,7 @@ const Blog = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="jm-blog-item jm-blog-layout-2 mb-55">
-              <div className="jm-blog-item-img w_img">
+              <div className="jm-blog-item-img w_img w-full h-[300px]">
                 <Link to="/blogDetailsPage">
                   <img src="assets/img/blog/4.jpg" alt="Image Not Found" />
                 </Link>
