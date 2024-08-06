@@ -1955,7 +1955,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   --clr-common-black-deep: #000000;
   --clr-body-heading: #2c2c2c;
   --clr-body-hover: #F59300;
-  --clr-body-text: #777;
+  --clr-body-text: #5c5b5b;
   --clr-color-orange: #FCAA04;
   --clr-color-orange-2: #ffd139;
   --clr-color-orange-3: #FFCD00;
@@ -4151,13 +4151,15 @@ input:focus::placeholder, textarea:focus::placeholder {
 
 .jm-browse-sidebar-widget-tag a {
   display: inline-block;
-  background: #f1f1f1;
-  color: var(--clr-body-heading);
+  background: #fff;
+  color: var(--clr-body-hover);
   padding: 0 10px;
   margin: 0 5px 10px 0;
   font-size: 14px;
   height: 30px;
   line-height: 30px;
+  border: 1px solid var(--clr-body-hover);
+  border-radius: 20px;
 }
 .jm-browse-sidebar-widget-tag a:hover {
   color: #fff;
@@ -6988,11 +6990,14 @@ blog sidebar area
 
 .jm-latest-job-item-3 {
   border: 1px solid #f1f1f1;
+  background-color: #F9F8FD;
+  border-radius: 20px;
 }
 .jm-latest-job-item-top-3 {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f1f1f1;
+  
 }
 @media (max-width: 767px) {
   .jm-latest-job-item-top-3 {
@@ -10440,8 +10445,10 @@ blog sidebar area
   line-height: 1;
   padding: 6px 8px;
   margin-bottom: 6px;
-  background-color: #FCAA04;
-  color: #fff;
+  background-color: #fff;
+  color: var(--clr-body-hover);
+  border: 1px solid var(--clr-body-hover);
+  border-radius: 20px;
 
 }
 .jm-latest-job-meta-wrapper a:last-child {
@@ -10909,7 +10916,6 @@ blog sidebar area
 }
 
 .jm-footer-top-2 {
-  border-bottom: 1px solid #464646;
   overflow: hidden;
   background-color: var(--clr-body-hover);
 }
@@ -10957,7 +10963,7 @@ blog sidebar area
   content: "";
   height: 100%;
   width: 1px;
-  background: #464646;
+  background: #fff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
   .jm-footer-top-counter-2:first-child::before {
@@ -11037,7 +11043,7 @@ blog sidebar area
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background: #484848;
+  background: var(--clr-theme-primary);
   text-align: center;
   color: #fff;
   font-size: 25px;
