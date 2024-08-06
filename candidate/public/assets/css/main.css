@@ -11178,10 +11178,10 @@ blog sidebar area
 .jm-footer-copyright-text-2 p {
   margin-bottom: 0;
   font-size: 17px;
-  color: #b2b2b2;
+  color: var(--clr-theme-primary);
 }
 .jm-footer-copyright-text-2 p a {
-  color: #ddd;
+  color: var(--clr-body-hover);
   font-weight: 500;
 }
 .jm-footer-copyright-text-2 p a:hover {
