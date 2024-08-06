@@ -8,8 +8,8 @@ const Category = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="jm-section-title mb-40 text-center">
-                        <h2 className="title mb-10">Categories</h2>
-                        <p className="text">Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+                        <h2 className="title mb-10 text-white">Categories</h2>
+                        <p className="text text-white">Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const Category = () => {
                             <div className="jm-category-item-content-inner-new">
                                 <span className="jm-category-item-icon-new"><i className="fa-thin fa-computer"></i></span>
                                 <h4 className="jm-cat-title-new"><Link to="/jobDetailsPage">IT Software</Link></h4>
-                                <span className="jm-job-posted-new">Posted Jobs: <span className="jm-job-count-new">3204</span></span>
+                                <span className="jm-job-posted-new text-black">Posted Jobs: <span className="jm-job-count-new">3204</span></span>
                             </div>
                         </div>
                     </div>

@@ -1752,7 +1752,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 
 .light-bg {
-  background: #fdeccb;
+  background: var(--clr-body-hover);
 }
 
 .no-after::after {
@@ -2725,6 +2725,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   height: 100%;
   background: #f1f1f1;
   transform: translateY(-50%);
+}
+
+.jm-job-posted-new {
+  color: black;
 }
 @media (max-width: 767px) {
   .banner-search-form .jm-job-title::after, .banner-search-form.banner-form-2 .jm-work::after {
@@ -4773,11 +4777,13 @@ blog sidebar area
 }
 
 .jm-job-count-new {
-  background-color: var(--clr-theme-primary);
+  color: var(--clr-body-hover);
   font-size: 13px;
-  padding: 2px 5px;
-  color: #fff;
-  border-radius: 2px;
+  padding: 3px 6px;
+  /* color: #fff; */
+  border-radius: 20px;
+  border: 1px solid var(--clr-body-hover)
+
 }
 
 .jm-noo-call-to-action-content {

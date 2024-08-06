@@ -5,7 +5,7 @@ import BrowseJobsList from '../Browse Jobs/BrowseJobsList'
 const JobListMain = () => {
   return (
     <main>
-        <Breadcrumb topic={"Jobs"} topicSpan={"Jobs List"}/>
+        {/* <Breadcrumb topic={"Jobs"} topicSpan={"Jobs List"}/> */}
         <BrowseJobsList/>
     </main>
   )
