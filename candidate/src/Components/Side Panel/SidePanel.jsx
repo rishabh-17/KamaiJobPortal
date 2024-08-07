@@ -1,60 +1,61 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { JobContext } from '../../Context/JobContext';
-import MobileMenu from './MobileMenu';
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import { JobContext } from "../../Context/JobContext";
+import MobileMenu from "./MobileMenu";
 
 const SidePanel = () => {
-    const {sidePanelOpen,handleClose} = useContext(JobContext)
+  const { sidePanelOpen, handleClose } = useContext(JobContext);
   return (
     <>
-      <div className={`jm-sidebar-info side-info ${sidePanelOpen ? 'info-open' : ''}`}>
-        <div className="jm-sidebar-logo-wrapper mb-25">
-          <div className="row align-items-center">
-            <div className="col-xl-6 col-8">
-              <div className="jm-sidebar-logo">
+      <div
+        className={`jm-sidebar-info side-info ${
+          sidePanelOpen ? "info-open" : ""
+        }`}
+        style={{ padding: "0px" }}
+      >
+        <div className="flex h-screen flex-col justify-between">
+          <div className="px-4 py-6">
+            <div className="flex justify-between items-center">
+              <span className="grid h-10 w-32 place-content-center rounded-lg bg-gray-100 text-xs text-gray-600">
                 <Link to="/">
                   <img src="assets/img/logo/logowhite.png" alt="logo-img" />
                 </Link>
-              </div>
+              </span>
+              <button
+                className="jm-sidebar-close side-info-close"
+                onClick={handleClose}
+              >
+                <i className="fal fa-times text-black"></i>
+              </button>
             </div>
-            <div className="col-xl-6 col-4">
-              <div className="jm-sidebar-close-wrapper text-end">
-                <button className="jm-sidebar-close side-info-close" onClick={handleClose}>
-                  <i className="fal fa-times"></i>
-                </button>
+            <MobileMenu handleClose={handleClose} />
+          </div>
+          <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">
+            <a
+              href="#"
+              className="flex items-center gap-2 bg-white p-4 hover:bg-gray-50"
+            >
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="size-10 rounded-full object-cover"
+              />
+
+              <div>
+                <p className="text-xs">
+                  <strong className="block font-medium">Eric Frusciante</strong>
+
+                  <span> eric@frusciante.com </span>
+                </p>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <MobileMenu handleClose={handleClose}/>
-
-        <div className="jm-sidebar-contact-wrapper mt-40">
-          <div className="jm-sidebar-contact mb-40">
-            <h4 className="jm-sidebar-contact-title">Contact Info</h4>
-            <span className="sidebar-address">
-              <i className="fal fa-map-marker-alt"></i>
-              <span>10221 Hollywood Blvd, los angeles USA</span>
-            </span>
-            <Link to="tel:(+99)012345678">
-              <i className="fal fa-phone"></i>
-              <span>(+99)012345678</span>
-            </Link>
-            <Link to="mailto:examplesite@gmail.com" className="theme-3">
-              <i className="fal fa-envelope"></i>
-              <span><span>examplesite@gmail.com</span></span>
-            </Link>
-          </div>
-
-          <div className="jm-sidebar-social mt-40 mb-30">
-            <Link to="#" target="_blank" className="facebook"><i className="fab fa-facebook-f"></i></Link>
-            <Link to="#" target="_blank" className="twitter"><i className="fab fa-pinterest-p"></i></Link>
-            <Link to="#" target="_blank" className="linkedin"><i className="fab fa-twitter"></i></Link>
-            <Link to="#" target="_blank" className="youtube"><i className="fab fa-instagram"></i></Link>
+            </a>
           </div>
         </div>
       </div>
-      <div className={`offcanvas-overlay ${sidePanelOpen ? 'overlay-open' : ''}`} onClick={handleClose}></div>
+      <div
+        className={`offcanvas-overlay ${sidePanelOpen ? "overlay-open" : ""}`}
+        onClick={handleClose}
+      ></div>
     </>
   );
 };

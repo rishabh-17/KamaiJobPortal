@@ -2537,7 +2537,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 
 .jm-header-logo .jm-logo img {
-  max-width: 180px;
+  max-width: 150px;
   display: inline-block;
 }
 @media (max-width: 767px) {
@@ -3747,7 +3747,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 .jm-sidebar-close.side-info-close {
   background: transparent;
   border: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   -webkit-transition: all 0.3s linear 0s;
   -moz-transition: all 0.3s linear 0s;
