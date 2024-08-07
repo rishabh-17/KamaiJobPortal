@@ -162,6 +162,10 @@ const Header = () => {
                   <Link
                     to="/postJobPage"
                     className="jm-theme-btn d-none d-lg-block"
+                    style={{
+                      padding: "8px 20px",
+                      borderRadius: "10px",
+                    }}
                   >
                     Candidate Login
                   </Link>

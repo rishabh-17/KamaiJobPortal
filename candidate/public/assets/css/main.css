@@ -2727,7 +2727,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   font-size: 16px;
   font-weight: 400;
   background-color: transparent;
-  border-color: #FCEBD1;
+  border-color: #d5d4d9;
   color: var(--clr-body-heading);
 }
 .jm-border-btn:hover {
@@ -6805,8 +6805,9 @@ blog sidebar area
 }
 
 .jm-job-item-3 {
-  background-color: #FCEBD1;
+  background-color: #F9F8FD;
   padding-top: 30px;
+  border-radius: 10px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .jm-job-item-3 {
@@ -6877,9 +6878,10 @@ blog sidebar area
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
-  border: 1px solid #FCEBD1;
-  background-color: #fff;
+  border: 1px solid #d5d4d9;
+  background-color: #F9F8FD;
   position: relative;
+  border-radius: 10px;
 }
 .jm-job-item-bottom-3::after {
   position: absolute;
@@ -6888,7 +6890,7 @@ blog sidebar area
   content: "";
   width: 1px;
   height: 100%;
-  background-color: #FCEBD1;
+  background-color: #d5d4d9;
   transform: translateX(-50%);
 }
 .jm-job-item-bottom-3 .jm-job-item-btn-3 {
