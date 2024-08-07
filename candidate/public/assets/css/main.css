@@ -2130,7 +2130,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 .jm-header-main-menu ul li a {
   font-size: 17px;
-  padding: 35px 0;
+  padding: 30px 0;
   display: inline-block;
   color: var(--clr-body-heading);
 }
@@ -2234,8 +2234,8 @@ input:focus::placeholder, textarea:focus::placeholder {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .jm-header-padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
