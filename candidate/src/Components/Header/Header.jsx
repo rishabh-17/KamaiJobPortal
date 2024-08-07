@@ -142,23 +142,35 @@ const Header = () => {
               </div>
               <div className="col-xl-3 col-lg-3 col-5">
                 <div className="jm-header-right  text-end d-flex align-items-center justify-content-end">
-                  <Link
+                  {/* <Link
                     to="#"
                     className="jm-search d-none d-lg-block jm-header-action-search"
                     role="button"
                     onClick={handleOpenForm}
                   >
                     <i className="fal fa-search"></i>
-                  </Link>
-                  <Link to="/candidateDetailsPage" className="jm-user">
+                  </Link> */}
+                  {/* <Link to="/candidateDetailsPage" className="jm-user">
                     <i className="fal fa-user"></i>
+                  </Link> */}
+                  <Link
+                    to="/postJobPage"
+                    className="jm-theme-btn-2 text-[#130160] whitespace-nowrap font-semibold d-none d-lg-block"
+                  >
+                    Employer Login
                   </Link>
                   <Link
                     to="/postJobPage"
                     className="jm-theme-btn d-none d-lg-block"
                   >
-                    Post Job
+                    Candidate Login
                   </Link>
+                  {/* <Link
+                    to="/postJobPage"
+                    className="jm-theme-btn d-none d-lg-block"
+                  >
+                    Post Job
+                  </Link> */}
                   <div
                     className="jm-navbar-mobile-sign side-toggle d-lg-none d-inline-block"
                     role="button"

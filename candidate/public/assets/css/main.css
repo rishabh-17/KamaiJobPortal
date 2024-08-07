@@ -2137,7 +2137,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 .jm-header-main-menu ul li:is(.menu-has-children) > a:after {
   display: inline-block;
   font-family: "Font Awesome 6 Pro";
-  content: "\f067";
+  content: "\f078";
   font-size: 13px;
   font-weight: 500;
   margin-left: 5px;
