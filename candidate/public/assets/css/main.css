@@ -11815,3 +11815,11 @@ a.meanmenu-reveal {
     padding: 0 30px;
   }
 }
+
+.otp-input {
+  background-color:  var(--clr-bg-gray);
+  height: 50px !important;
+  width: 50px !important;
+  margin-right: 0 !important;
+  gap: 20px;
+}

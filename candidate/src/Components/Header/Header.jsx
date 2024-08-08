@@ -1,16 +1,23 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { JobContext } from "../../Context/JobContext";
-import Login from "../Login"
+import Login from "../Login";
 
 const Header = () => {
   const [announcement, setAnnouncement] = useState(true);
-  const [modalShow, setModalShow] = useState(true)
-  const [type, setType] = useState('Candidate');
+  const [modalShow, setModalShow] = useState(false);
+  const [type, setType] = useState("Candidate");
+  const [otpStep, setOtpStep] = useState(false);
   const { handleOpenForm, isSticky, handleOpen } = useContext(JobContext);
   return (
     <header className="heater-transparent">
-      <Login setModalShow={setModalShow} modalShow={modalShow} type={type} />
+      <Login
+        setModalShow={setModalShow}
+        modalShow={modalShow}
+        type={type}
+        setOtpStep={setOtpStep}
+        otpStep={otpStep}
+      />
       <div
         className={`fixed inset-x-0 bottom-0 ${announcement ? "" : "hidden"}`}
       >
@@ -145,7 +152,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-xl-3 col-lg-3 col-5">
-                <div className="jm-header-right  text-end d-flex align-items-center justify-content-end">
+                <div className="jm-header-right  text-end d-flex gap-4 align-items-center justify-content-end">
                   {/* <Link
                     to="#"
                     className="jm-search d-none d-lg-block jm-header-action-search"
@@ -157,22 +164,30 @@ const Header = () => {
                   {/* <Link to="/candidateDetailsPage" className="jm-user">
                     <i className="fal fa-user"></i>
                   </Link> */}
-                  <Link
-                    to="/postJobPage"
+                  <button
                     className="jm-theme-btn-2 text-[#130160] whitespace-nowrap font-semibold d-none d-lg-block"
+                    onClick={() => {
+                      setOtpStep(false);
+                      setType("Employer");
+                      setModalShow(true);
+                    }}
                   >
                     Employer Login
-                  </Link>
-                  <Link
-                    to="/postJobPage"
+                  </button>
+                  <button
                     className="jm-theme-btn d-none d-lg-block"
                     style={{
                       padding: "8px 20px",
                       borderRadius: "10px",
                     }}
+                    onClick={() => {
+                      setOtpStep(false);
+                      setType("Candidate");
+                      setModalShow(true);
+                    }}
                   >
                     Candidate Login
-                  </Link>
+                  </button>
                   {/* <Link
                     to="/postJobPage"
                     className="jm-theme-btn d-none d-lg-block"
