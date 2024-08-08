@@ -1,12 +1,16 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { JobContext } from "../../Context/JobContext";
+import Login from "../Login"
 
 const Header = () => {
   const [announcement, setAnnouncement] = useState(true);
+  const [modalShow, setModalShow] = useState(true)
+  const [type, setType] = useState('Candidate');
   const { handleOpenForm, isSticky, handleOpen } = useContext(JobContext);
   return (
     <header className="heater-transparent">
+      <Login setModalShow={setModalShow} modalShow={modalShow} type={type} />
       <div
         className={`fixed inset-x-0 bottom-0 ${announcement ? "" : "hidden"}`}
       >
