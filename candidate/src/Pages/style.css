@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.app {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.avatar-selection, .avatar-library, .preview-jd {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+textarea, select, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e07b00;
+}
+
+.avatar-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.avatar-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatar-item.selected {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-placeholder {
+    background-color: #ddd;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
