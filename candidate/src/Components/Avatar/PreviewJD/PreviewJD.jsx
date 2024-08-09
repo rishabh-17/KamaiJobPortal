@@ -42,7 +42,7 @@ function PreviewJD({ setPreview }) {
       <h2 className="text-center text-2xl font-bold mb-8">
         Preview of Job Description
       </h2>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="mb-8">
           <video
             className="w-full rounded-lg shadow-md"

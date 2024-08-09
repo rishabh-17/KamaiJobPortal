@@ -36,7 +36,7 @@ function AvatarSelection({ setPreview, selectedAvatar, setSelectedAvatar }) {
       <h2 className="text-3xl text-center text-gray-800 mb-4 mt-28">
         Create Video Job Description
       </h2>
-      <div className="grid grid-cols-2 divide-x px-4">
+      <div className="grid md:grid-cols-2 grid-cols-1 divide-x px-4">
         <div className="px-6">
           <div className="flex flex-col mb-4">
             <h3 className="text-xl mb-4">Step 1: Select Your Avatar</h3>

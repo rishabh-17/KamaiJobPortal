@@ -32,12 +32,17 @@ function AvatarLibrary({
       onHide={() => setAvatarLibraryOpen(false)}
       size="lg"
       centered
+      closeButton
     >
-      <Modal.Body>
-        <div className="mx-auto p-4 bg-white rounded-lg shadow-md flex flex-col items-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">
-            Avatar Library
-          </h2>
+      <div className="mx-auto p-4 bg-white rounded-lg shadow-md flex flex-col items-center">
+        <Modal.Header
+          className="border-0 rounded flex items-center justify-between w-full"
+          closeButton
+        >
+          <h2 className="text-3xl font-bold text-gray-800">Avatar Library</h2>
+        </Modal.Header>
+
+        <Modal.Body>
           <p className="text-gray-600 mb-10">
             Choose your avatar based on your preference :)
           </p>
@@ -72,8 +77,8 @@ function AvatarLibrary({
               </div>
             </div>
           </div>
-        </div>
-      </Modal.Body>
+        </Modal.Body>
+      </div>
     </Modal>
   );
 }
