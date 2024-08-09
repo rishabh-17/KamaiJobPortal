@@ -29,7 +29,7 @@ import AddResumePage from "./Pages/AddResumePage";
 import { useEffect } from "react";
 import CandidateRegister from "./Pages/CandidateRegister";
 import EmployerRegister from "./Pages/EmployerRegister";
-// import AvatarSettings from "./Pages/AvatarSettings";
+import AvatarSettings from "./Pages/AvatarSettings";
 
 function App() {
   const ScrollToTop = () => {
@@ -71,7 +71,9 @@ function App() {
         />
         <Route path="/candidateRegister" element={<CandidateRegister />} />
         <Route path="/employerRegister" element={<EmployerRegister />} />
-        {/* <Route path="/AvatarSettings" element={<AvatarSettings />} /> */}
+        <Route path="/AvatarSettings" element={<AvatarSettings />} />
+        <Route path="/AvatarSettings" element={<AvatarSettings />} />
+        <Route path="/AvatarSettings" element={<AvatarSettings />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

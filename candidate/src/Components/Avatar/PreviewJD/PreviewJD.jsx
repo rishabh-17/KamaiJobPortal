@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import './styles.css';
-
-function PreviewJD() {
-  const [title, setTitle] = useState('');
+import React, { useState } from "react";
+import Header from "../../Header/Header";
+function PreviewJD({ setPreview }) {
+  const [title, setTitle] = useState("");
   const [fontSize, setFontSize] = useState(24);
-  const [fontColor, setFontColor] = useState('#000000');
-  const [fontStyle, setFontStyle] = useState('normal');
-  const [fontWeight, setFontWeight] = useState('normal');
-  const [textDecoration, setTextDecoration] = useState('none');
+  const [fontColor, setFontColor] = useState("#000000");
+  const [fontStyle, setFontStyle] = useState("normal");
+  const [fontWeight, setFontWeight] = useState("normal");
+  const [textDecoration, setTextDecoration] = useState("none");
 
   const handleTitleChange = (e) => {
     setTitle(e.target.value);
@@ -22,15 +21,15 @@ function PreviewJD() {
   };
 
   const handleFontStyleChange = (e) => {
-    setFontStyle(e.target.checked ? 'italic' : 'normal');
+    setFontStyle(e.target.checked ? "italic" : "normal");
   };
 
   const handleFontWeightChange = (e) => {
-    setFontWeight(e.target.checked ? 'bold' : 'normal');
+    setFontWeight(e.target.checked ? "bold" : "normal");
   };
 
   const handleTextDecorationChange = (e) => {
-    setTextDecoration(e.target.checked ? 'underline' : 'none');
+    setTextDecoration(e.target.checked ? "underline" : "none");
   };
 
   const handleSubmit = () => {
@@ -38,83 +37,109 @@ function PreviewJD() {
   };
 
   return (
-    <div className="preview-container">
-      <h2>Preview of Job Description</h2>
-      
-      {/* Video Placeholder */}
-      <div className="video-preview">
-        <p>Video will be displayed here</p>
+    <div className="container mx-auto px-4 py-8 ">
+      <Header />
+      <h2 className="text-center text-2xl font-bold mb-8">
+        Preview of Job Description
+      </h2>
+      <div className="grid grid-cols-2 gap-5">
+        <div className="mb-8">
+          <video
+            className="w-full rounded-lg shadow-md"
+            src="path/to/video.mp4"
+            controls
+          />
+        </div>
+        <div>
+          <div className="mb-8">
+            <h3 className="text-lg font-bold mb-2">Title for Video</h3>
+            <input
+              type="text"
+              value={title}
+              onChange={handleTitleChange}
+              style={{
+                fontSize: `${fontSize}px`,
+                color: fontColor,
+                fontStyle: fontStyle,
+                fontWeight: fontWeight,
+                textDecoration: textDecoration,
+              }}
+              className="w-full"
+              placeholder="Enter a title for the video job description"
+            />
+          </div>
+          <div className="flex justify-between items-center">
+            <div className="w-1/2 mr-4">
+              <label className="block text-sm font-bold mb-2">Font Size:</label>
+              <input
+                type="range"
+                min="12"
+                max="48"
+                value={fontSize}
+                onChange={handleFontSizeChange}
+                className="w-full"
+              />
+              <span className="text-xs">{fontSize}px</span>
+            </div>
+            <div className="w-1/2">
+              <label className="block text-sm font-bold mb-2">
+                Font Color:
+              </label>
+              <input
+                type="color"
+                value={fontColor}
+                onChange={handleFontColorChange}
+                className="w-full"
+              />
+            </div>
+          </div>
+          <div className="flex justify-between items-center mt-4">
+            <div className="w-1/2 mr-4">
+              <label className="block text-sm font-bold mb-2">Italic:</label>
+              <input
+                type="checkbox"
+                checked={fontStyle === "italic"}
+                onChange={handleFontStyleChange}
+                className="mr-2"
+              />
+            </div>
+            <div className="w-1/2">
+              <label className="block text-sm font-bold mb-2">Bold:</label>
+              <input
+                type="checkbox"
+                checked={fontWeight === "bold"}
+                onChange={handleFontWeightChange}
+                className="mr-2"
+              />
+            </div>
+          </div>
+          <div className="flex justify-between items-center mt-4">
+            <div className="w-1/2 mr-4">
+              <label className="block text-sm font-bold mb-2">Underline:</label>
+              <input
+                type="checkbox"
+                checked={textDecoration === "underline"}
+                onChange={handleTextDecorationChange}
+                className="mr-2"
+              />
+            </div>
+          </div>
+          <footer className="mt-8 flex justify-between w-full">
+            <button
+              className="bg-[#130160] text-white  font-bold py-2 px-4 rounded"
+              onClick={() => setPreview(false)}
+            >
+              Back
+            </button>
+            <button
+              onClick={handleSubmit}
+              className="bg-[#F59300] text-white font-bold py-2 px-4 rounded"
+            >
+              Submit
+            </button>
+          </footer>
+        </div>
       </div>
-      
-      {/* Title Input */}
-      <div className="title-input">
-        <h3>Title for Video</h3>
-        <input
-          type="text"
-          value={title}
-          onChange={handleTitleChange}
-          style={{
-            fontSize: `${fontSize}px`,
-            color: fontColor,
-            fontStyle: fontStyle,
-            fontWeight: fontWeight,
-            textDecoration: textDecoration
-          }}
-          placeholder="Enter a title for the video job description"
-        />
-      </div>
-
-      {/* Font Customization Options */}
-      <div className="customization-options">
-        <div className="custom-option">
-          <label>Font Size:</label>
-          <input
-            type="range"
-            min="12"
-            max="48"
-            value={fontSize}
-            onChange={handleFontSizeChange}
-          />
-          <span>{fontSize}px</span>
-        </div>
-        <div className="custom-option">
-          <label>Font Color:</label>
-          <input
-            type="color"
-            value={fontColor}
-            onChange={handleFontColorChange}
-          />
-        </div>
-        <div className="custom-option">
-          <label>Italic:</label>
-          <input
-            type="checkbox"
-            checked={fontStyle === 'italic'}
-            onChange={handleFontStyleChange}
-          />
-        </div>
-        <div className="custom-option">
-          <label>Bold:</label>
-          <input
-            type="checkbox"
-            checked={fontWeight === 'bold'}
-            onChange={handleFontWeightChange}
-          />
-        </div>
-        <div className="custom-option">
-          <label>Underline:</label>
-          <input
-            type="checkbox"
-            checked={textDecoration === 'underline'}
-            onChange={handleTextDecorationChange}
-          />
-        </div>
-      </div>
-
-      {/* Submit Button */}
-      <footer>
-        <button onClick={handleSubmit}>Submit</button>
-      </footer>
     </div>
   );
 }
