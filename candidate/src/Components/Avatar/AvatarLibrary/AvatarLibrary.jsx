@@ -1,11 +1,20 @@
-import React, { useState } from 'react';
-import './style.css';
+import React, { useState } from "react";
+// import './style.css';
 
 function AvatarLibrary() {
   const avatars = [
-    'avatar1.png', 'avatar2.png', 'avatar3.png', 'avatar4.png',
-    'avatar5.png', 'avatar6.png', 'avatar7.png', 'avatar8.png',
-    'avatar9.png', 'avatar10.png', 'avatar11.png', 'avatar12.png'
+    "avatar1.png",
+    "avatar2.png",
+    "avatar3.png",
+    "avatar4.png",
+    "avatar5.png",
+    "avatar6.png",
+    "avatar7.png",
+    "avatar8.png",
+    "avatar9.png",
+    "avatar10.png",
+    "avatar11.png",
+    "avatar12.png",
   ];
 
   const [selectedAvatar, setSelectedAvatar] = useState(null);
@@ -22,7 +31,9 @@ function AvatarLibrary() {
         {avatars.map((avatar, index) => (
           <div
             key={index}
-            className={`avatar-item ${selectedAvatar === avatar ? 'selected' : ''}`}
+            className={`avatar-item ${
+              selectedAvatar === avatar ? "selected" : ""
+            }`}
             onClick={() => handleAvatarClick(avatar)}
           >
             <img src={avatar} alt={`Avatar ${index + 1}`} />
