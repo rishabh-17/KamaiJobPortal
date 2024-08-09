@@ -101,6 +101,11 @@ const Header2 = () => {
                             Candidates Details
                           </Link>
                         </li>
+                        <li>
+                          <Link to="/candidateRegister">
+                            Candidates Register
+                          </Link>
+                        </li>
                       </ul>
                     </li>
                     <li className="menu-has-children">

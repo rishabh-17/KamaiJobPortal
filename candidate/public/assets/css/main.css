@@ -10448,7 +10448,7 @@ blog sidebar area
   padding: 6px 8px;
   margin-bottom: 6px;
   background-color: #fff;
-  color: var(--clr-body-hover);
+  color: var(--clr-body-hover) !important;
   border: 1px solid var(--clr-body-hover);
   border-radius: 20px;
 
@@ -11822,4 +11822,12 @@ a.meanmenu-reveal {
   width: 50px !important;
   margin-right: 0 !important;
   gap: 20px;
+}
+
+.go3842760039:before {
+  background-color: var(--clr-theme-primary) !important;
+}
+
+.go433304200:before {
+  background-color: var(--clr-theme-primary) !important;
 }
