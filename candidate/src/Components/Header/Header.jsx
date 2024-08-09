@@ -117,6 +117,9 @@ const Header = () => {
                               Candidates Register
                             </Link>
                           </li>
+                          <li>
+                            <Link to="/AvatarSettings">Video Description</Link>
+                          </li>
                         </ul>
                       </li>
                       <li className="menu-has-children">

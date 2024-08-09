@@ -72,8 +72,6 @@ function App() {
         <Route path="/candidateRegister" element={<CandidateRegister />} />
         <Route path="/employerRegister" element={<EmployerRegister />} />
         <Route path="/AvatarSettings" element={<AvatarSettings />} />
-        <Route path="/AvatarSettings" element={<AvatarSettings />} />
-        <Route path="/AvatarSettings" element={<AvatarSettings />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
