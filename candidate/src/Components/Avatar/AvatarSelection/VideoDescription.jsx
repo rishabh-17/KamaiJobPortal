@@ -111,7 +111,6 @@ function AvatarSelection({ setPreview, selectedAvatar, setSelectedAvatar }) {
           </div>
           <footer className="mt-8 flex justify-center flex-row-reverse px-4">
             <button
-              onClick={handleSubmit}
               className="bg-green-500 text-white px-4 py-2 rounded"
               onClick={() => setPreview(true)}
             >
