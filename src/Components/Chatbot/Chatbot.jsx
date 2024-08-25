@@ -1,40 +1,40 @@
-import React, { useState } from 'react';
-import './Chatbot.css';
+import React, { useState } from "react";
+import "./Chatbot.css";
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([]);
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState("");
 
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
 
   const sendMessage = async (messageText) => {
-    const userMessage = { text: messageText, sender: 'user' };
-    setMessages(prevMessages => [...prevMessages, userMessage]);
+    const userMessage = { text: messageText, sender: "user" };
+    setMessages((prevMessages) => [...prevMessages, userMessage]);
 
     try {
-      const response = await fetch('http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/chat', {
-        method: 'POST',
+      const response = await fetch("https://dev.kamai.ai/chat", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({ message: messageText }),
       });
 
       const botReply = await response.json();
-      const botMessage = { 
-        text: botReply.response, 
-        sender: 'bot', 
-        buttons: botReply.buttons || [] 
+      const botMessage = {
+        text: botReply.response,
+        sender: "bot",
+        buttons: botReply.buttons || [],
       };
-      setMessages(prevMessages => [...prevMessages, botMessage]);
+      setMessages((prevMessages) => [...prevMessages, botMessage]);
     } catch (error) {
-      console.error('Error fetching bot reply:', error);
+      console.error("Error fetching bot reply:", error);
     }
 
-    setInput('');
+    setInput("");
   };
 
   const handleSend = () => {
@@ -48,15 +48,25 @@ const Chatbot = () => {
   return (
     <>
       <div className="chatbot-icon" onClick={toggleChatbot}>
-        <img src="../../public/assets/img/icons/Chatbot.png" alt="Chatbot"/>
+        <img src="../../public/assets/img/icons/Chatbot.png" alt="Chatbot" />
       </div>
 
       {isOpen && (
         <div className="chatbot-popup">
           <div className="chatbot-header">
-            <img src="../../public/assets/img/icons/Chatbot.png" alt="Chatbot" /> {/* Add your profile picture URL */}
+            <img
+              src="../../public/assets/img/icons/Chatbot.png"
+              alt="Chatbot"
+            />{" "}
+            {/* Add your profile picture URL */}
             <h2>Chatbot</h2>
-            <button onClick={toggleChatbot} className="chatbot-close"><img src="../../public/assets/img/icons/Cancel.png" alt="close" style={{height: '20px', width: '20px'}}/></button>
+            <button onClick={toggleChatbot} className="chatbot-close">
+              <img
+                src="../../public/assets/img/icons/Cancel.png"
+                alt="close"
+                style={{ height: "20px", width: "20px" }}
+              />
+            </button>
           </div>
           <div className="chatbot-messages">
             {messages.map((msg, index) => (
@@ -65,7 +75,11 @@ const Chatbot = () => {
                 {msg.buttons && (
                   <div className="chatbot-buttons">
                     {msg.buttons.map((button, idx) => (
-                      <button key={idx} className="chatbot-button" onClick={() => handleButtonClick(button)}>
+                      <button
+                        key={idx}
+                        className="chatbot-button"
+                        onClick={() => handleButtonClick(button)}
+                      >
                         {button}
                       </button>
                     ))}
@@ -81,7 +95,13 @@ const Chatbot = () => {
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type a message..."
             />
-            <button onClick={handleSend}><img src="../../public/assets/img/icons/send.png" alt="sent"  style={{width:'25px'}}/></button>
+            <button onClick={handleSend}>
+              <img
+                src="../../public/assets/img/icons/send.png"
+                alt="sent"
+                style={{ width: "25px" }}
+              />
+            </button>
           </div>
         </div>
       )}

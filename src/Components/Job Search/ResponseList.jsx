@@ -105,7 +105,7 @@ const ListCandidates = () => {
   const editClick = async (jobId) => {
     try {
       const jobDetails = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost/${jobId}`,
+        `https://dev.kamai.ai/employer/${orgId}/jobpost/${jobId}`,
         {
           method: "GET",
           headers: {

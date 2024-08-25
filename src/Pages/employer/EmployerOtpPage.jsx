@@ -93,7 +93,7 @@ const EmployerOtpPage = () => {
           localStorage.setItem("userType", "employer");
           setUserType("employer");
           const userDetailsResponse = await fetch(
-            `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/organization?username=+91${phoneNumber}`,
+            `https://dev.kamai.ai/employer/organization?username=+91${phoneNumber}`,
             {
               method: "GET",
               headers: {
@@ -115,7 +115,7 @@ const EmployerOtpPage = () => {
             );
             try {
               const companyProfileByOrgId = await fetch(
-                `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/organization/${organizationId}`,
+                `https://dev.kamai.ai/employer/organization/${organizationId}`,
                 {
                   method: "GET",
                   headers: {
@@ -141,7 +141,7 @@ const EmployerOtpPage = () => {
             } else {
               try {
                 const GetAllJobs = await fetch(
-                  `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${organizationId}/jobpost`,
+                  `https://dev.kamai.ai/employer/${organizationId}/jobpost`,
                   {
                     method: "GET",
                     headers: {

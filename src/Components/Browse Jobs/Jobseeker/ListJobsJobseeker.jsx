@@ -18,11 +18,11 @@ const ListJobsJobseeker = () => {
   const indexOfLastJob = currentPage * jobsPerPage;
   const indexOfFirstJob = indexOfLastJob - jobsPerPage;
   const currentJobs = filteredJobs.slice(indexOfFirstJob, indexOfLastJob);
-  console.log("Filtered jobs data in candidate :: ",currentJobs);
+  console.log("Filtered jobs data in candidate :: ", currentJobs);
   const handleClick = async () => {
     try {
       const response = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/200/jobpost/11`,
+        `https://dev.kamai.ai/employer/200/jobpost/11`,
         {
           method: "GET",
           headers: {

@@ -81,7 +81,7 @@ const Otp = () => {
           const accessToken = loginResponse?.data?.access_token; // Extract the access token from the response
 
           const userDetailsResponse = await fetch(
-            `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/organization?username=+91${phoneNumber}`,
+            `https://dev.kamai.ai/employer/organization?username=+91${phoneNumber}`,
             {
               method: "GET",
               headers: {
@@ -98,25 +98,27 @@ const Otp = () => {
             if (userDetails?.name === null) {
               navigate("/employeRegistrationPage"); // Show registration page
             } else {
-              try{
-                const GetAllJobs = await fetch(`http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${organizationId}/jobpost`,
-                {  
-                  method: "GET",
-                  headers: {
-                    "Content-Type": 'application/json',
-                    Authorization: `Bearer ${accessToken}`, // Use Bearer token
+              try {
+                const GetAllJobs = await fetch(
+                  `https://dev.kamai.ai/employer/${organizationId}/jobpost`,
+                  {
+                    method: "GET",
+                    headers: {
+                      "Content-Type": "application/json",
+                      Authorization: `Bearer ${accessToken}`, // Use Bearer token
+                    },
                   }
-                })
-                if(GetAllJobs.ok){
+                );
+                if (GetAllJobs.ok) {
                   const jobData = await GetAllJobs.json(); //Parse the job data
 
                   navigate("/jobListPageEmployer"); // Show job list page
 
                   toast.success("Successfully Fetch the Jobs");
-                }else{
+                } else {
                   toast.error("Error Fetching the Jobs");
                 }
-              }catch(error){
+              } catch (error) {
                 toast.error("Error Fetching the Jobs");
               }
             }
@@ -152,13 +154,15 @@ const Otp = () => {
             </span>
             <div
               className="d-flex justify-content-left align-items-left"
-              style={{ display: "flex" }}>
+              style={{ display: "flex" }}
+            >
               <span className="text-muted mt-50 didnt-receive-otp">
                 Didn't get the OTP?
                 <span
                   className="text-decoration-underline resend-otp"
                   style={{ paddingLeft: "12px" }}
-                  onClick={handleResendOtp}>
+                  onClick={handleResendOtp}
+                >
                   Resend
                 </span>
               </span>

@@ -34,9 +34,7 @@ const SampleVideosPage = () => {
   ];
 
   useEffect(() => {
-    fetch(
-      "http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker/samplevideo"
-    )
+    fetch("https://dev.kamai.ai/jobseeker/samplevideo")
       .then((response) => response.json())
       .then((data) => {
         setVideoData(data[0]);

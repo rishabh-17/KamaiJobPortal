@@ -52,7 +52,7 @@ const CompanyDetails = () => {
 
     try {
       const response = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/organization/${orgId}`,
+        `https://dev.kamai.ai/employer/organization/${orgId}`,
         {
           method: "PUT",
           headers: {

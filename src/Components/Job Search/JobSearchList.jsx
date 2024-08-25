@@ -97,7 +97,7 @@ const ListCandidates = () => {
   const responsesClick = async (jobId) => {
     try {
       const candidateJobList = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost/${jobId}/applicants`,
+        `https://dev.kamai.ai/employer/${orgId}/jobpost/${jobId}/applicants`,
         {
           method: "GET",
           headers: {
@@ -128,7 +128,7 @@ const ListCandidates = () => {
   const editClick = async (jobId) => {
     try {
       const jobDetails = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost/${jobId}`,
+        `https://dev.kamai.ai/employer/${orgId}/jobpost/${jobId}`,
         {
           method: "GET",
           headers: {

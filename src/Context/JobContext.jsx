@@ -194,22 +194,19 @@ const JobContextProvider = ({ children }) => {
 
   const verifyOtp = async (otp) => {
     try {
-      const response = await fetch(
-        "http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/login",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: "Basic ZGVtby1jbGllbnQ6ZGVtby1zZWNyZXQ=",
-          },
-          body: JSON.stringify({
-            username: `+91${phoneNumber}`,
-            grant_type: "grant_otp",
-            otp: otp,
-            username_attr_type: "mobile_number",
-          }),
-        }
-      );
+      const response = await fetch("https://dev.kamai.ai/employer/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: "Basic ZGVtby1jbGllbnQ6ZGVtby1zZWNyZXQ=",
+        },
+        body: JSON.stringify({
+          username: `+91${phoneNumber}`,
+          grant_type: "grant_otp",
+          otp: otp,
+          username_attr_type: "mobile_number",
+        }),
+      });
 
       // Get raw response text
       const rawText = await response.text();
@@ -247,22 +244,19 @@ const JobContextProvider = ({ children }) => {
     // setShowJobSeekerOtpPage(true);
 
     try {
-      const response = await fetch(
-        "http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker/login",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: "Basic ZGVtby1jbGllbnQ6ZGVtby1zZWNyZXQ=",
-          },
-          body: JSON.stringify({
-            username: `+91${phoneNumber}`,
-            grant_type: "grant_otp",
-            otp: otp,
-            username_attr_type: "mobile_number",
-          }),
-        }
-      );
+      const response = await fetch("https://dev.kamai.ai/jobseeker/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: "Basic ZGVtby1jbGllbnQ6ZGVtby1zZWNyZXQ=",
+        },
+        body: JSON.stringify({
+          username: `+91${phoneNumber}`,
+          grant_type: "grant_otp",
+          otp: otp,
+          username_attr_type: "mobile_number",
+        }),
+      });
 
       const data = await response.json(); // Parse the response JSON
       console.log(response.ok);
@@ -292,7 +286,7 @@ const JobContextProvider = ({ children }) => {
   const saveAndContinueRegistration = async () => {
     try {
       const response = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker/333/personal-info`,
+        `https://dev.kamai.ai/jobseeker/333/personal-info`,
         {
           method: "PUT",
           headers: {
@@ -348,7 +342,7 @@ const JobContextProvider = ({ children }) => {
 
     try {
       const updateProfile = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/organization/${orgId}`,
+        `https://dev.kamai.ai/employer/organization/${orgId}`,
         {
           method: "PUT",
           headers: {
@@ -371,7 +365,7 @@ const JobContextProvider = ({ children }) => {
 
   const fetchCompanyProfile = async () => {
     const companyProfileByOrgId = await fetch(
-      `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/organization/${orgId}`,
+      `https://dev.kamai.ai/employer/organization/${orgId}`,
       {
         method: "GET",
         headers: {
@@ -410,7 +404,7 @@ const JobContextProvider = ({ children }) => {
     locationId
   ) => {
     fetch(
-      `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost?page=${
+      `https://dev.kamai.ai/employer/${orgId}/jobpost?page=${
         +page - 1
       }&size=10&sortBy=createdOn&sortDir=desc${
         expMin ? `&expMin=${expMin}` : ""
@@ -495,7 +489,7 @@ const JobContextProvider = ({ children }) => {
     qualificationId
   ) => {
     fetch(
-      `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker/search?page=${
+      `https://dev.kamai.ai/jobseeker/search?page=${
         +page - 1
       }&size=10&sortBy=createdOn&sortDir=desc${
         expMin ? `&expMin=${expMin}` : ""
@@ -538,7 +532,7 @@ const JobContextProvider = ({ children }) => {
     qualificationId
   ) => {
     fetch(
-      `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost/${jobId}/applicants?page=${
+      `https://dev.kamai.ai/employer/${orgId}/jobpost/${jobId}/applicants?page=${
         +page - 1
       }&size=10&sortBy=createdOn&sortDir=desc${
         expMin ? `&expMin=${expMin}` : ""
@@ -600,16 +594,13 @@ const JobContextProvider = ({ children }) => {
   };
 
   const fetchNotifications = async () => {
-    fetch(
-      `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/message/stream?username=+919740895456`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${profileToken}`,
-        },
-      }
-    )
+    fetch(`https://dev.kamai.ai/message/stream?username=+919740895456`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${profileToken}`,
+      },
+    })
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

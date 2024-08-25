@@ -45,7 +45,6 @@ const PostJobArea = () => {
   const [selectedLocation, setSelectedLocation] = useState([]);
   const [selectedLocality, setSelectedLocality] = useState([]);
 
-
   const handleGenderChange = (e) => {
     setGender(e.target.value);
   };
@@ -53,7 +52,7 @@ const PostJobArea = () => {
   const handleOnSubmit = async (e) => {
     console.log("onsubmit");
     const postJobRequest = await fetch(
-      `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost`,
+      `https://dev.kamai.ai/employer/${orgId}/jobpost`,
       {
         method: "POST",
         headers: {
@@ -158,7 +157,7 @@ const PostJobArea = () => {
     // const handlePostJob = async (e) => {
 
     //   const postJobRequest = await fetch(
-    //     `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/197/jobpost`,
+    //     `https://dev.kamai.ai/employer/197/jobpost`,
     //     {
     //       method: "POST",
     //       headers: {
@@ -204,8 +203,7 @@ const PostJobArea = () => {
     setSelectedLocation(selectedOptions);
   };
   const filteredLocalities = locality.filter(
-    (i) =>
-      i.city_id === selectedLocation.value
+    (i) => i.city_id === selectedLocation.value
   );
   const handleLocalityChange = (selectedOptions) => {
     setSelectedLocality(selectedOptions);
@@ -332,7 +330,7 @@ const PostJobArea = () => {
                   className="w-full rounded-md p-2 focus:ring focus:ring-opacity-75 text-gray-900 focus:ring-amber-500 border-gray-300"
                 />
               </div>
-              
+
               <div className="col-span-full">
                 <label htmlFor="description" className="text-sm">
                   Job Description *
@@ -414,9 +412,9 @@ const PostJobArea = () => {
                   isMulti
                   value={selectedLangauge}
                   onChange={handleLangaugeChange}
-                  options={language?.map((lang)=>({
+                  options={language?.map((lang) => ({
                     value: lang.id,
-                    label: lang.language
+                    label: lang.language,
                   }))}
                   className="w-full rounded-md focus:ring focus:ring-opacity-75 text-gray-900 focus:ring-amber-500 border-gray-300"
                   placeholder="Select languages needed for this job"

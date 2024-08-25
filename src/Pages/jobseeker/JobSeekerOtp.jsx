@@ -62,7 +62,8 @@ const JobSeekerOtp = () => {
     phoneNumber,
     setRegistrationAccessToken,
     setFilteredJobs,
-    setJobseekerId, setCandidateDtls,
+    setJobseekerId,
+    setCandidateDtls,
   } = useContext(JobContext);
 
   useEffect(() => {
@@ -88,7 +89,7 @@ const JobSeekerOtp = () => {
           setRegistrationAccessToken(accessToken);
 
           const userDetailsResponse = await fetch(
-            `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker?username=+91${phoneNumber}`,
+            `https://dev.kamai.ai/jobseeker?username=+91${phoneNumber}`,
             {
               method: "GET",
               headers: {
@@ -102,36 +103,38 @@ const JobSeekerOtp = () => {
             const userDetails = await userDetailsResponse.json(); // Parse the user details response
             setJobseekerId(userDetails.jobseekerId);
             localStorage.setItem("jobseekerId", userDetails?.jobseekerId);
-            if(userDetails?.jobseekerId){
-                try {
-                  const candidateJob = await fetch(
-                    `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker/${userDetails?.jobseekerId}`,
-                    {
-                      method: "GET",
-                      headers: {
-                        "Content-Type": "application/json",
-                        Authorization: `Bearer ${accessToken}`, // Use Bearer token
-                      },
-                    }
-                  );
-                  if (candidateJob.ok) {
-                    const candidate = await candidateJob.json();
-                    setCandidateDtls(candidate);
-                    console.log("candidate :: ",candidate);
-                  } else {
-                    throw new Error("Failed to fetch response of Applicant details");
+            if (userDetails?.jobseekerId) {
+              try {
+                const candidateJob = await fetch(
+                  `https://dev.kamai.ai/jobseeker/${userDetails?.jobseekerId}`,
+                  {
+                    method: "GET",
+                    headers: {
+                      "Content-Type": "application/json",
+                      Authorization: `Bearer ${accessToken}`, // Use Bearer token
+                    },
                   }
-                } catch (error) {
-                  toast.error("Failed to fetch Applicant details:");
+                );
+                if (candidateJob.ok) {
+                  const candidate = await candidateJob.json();
+                  setCandidateDtls(candidate);
+                  console.log("candidate :: ", candidate);
+                } else {
+                  throw new Error(
+                    "Failed to fetch response of Applicant details"
+                  );
                 }
-            }  
+              } catch (error) {
+                toast.error("Failed to fetch Applicant details:");
+              }
+            }
             if (userDetails?.fullName === null) {
               navigate("/candidateRegistrationPage"); // Show registration page
               setRegistrationAccessToken(accessToken);
             } else {
               try {
                 const getAllJobs = await fetch(
-                  "http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/jobpost/getAll",
+                  "https://dev.kamai.ai/employer/jobpost/getAll",
                   {
                     method: "GET",
                     headers: {

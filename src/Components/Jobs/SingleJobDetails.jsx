@@ -133,7 +133,7 @@ const SingleJobDetails = () => {
   const updateJobDetails = async () => {
     try {
       const response = await fetch(
-        `http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/employer/${orgId}/jobpost/${jobDetails.jobId}`,
+        `https://dev.kamai.ai/employer/${orgId}/jobpost/${jobDetails.jobId}`,
         {
           method: "PUT",
           headers: {

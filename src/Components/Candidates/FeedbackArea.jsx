@@ -28,17 +28,14 @@ const FeedbackArea = () => {
     };
 
     try {
-      const response = await fetch(
-        "http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/admin/feedback",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${profileToken}`,
-          },
-          body: JSON.stringify(feedbackData),
-        }
-      );
+      const response = await fetch("https://dev.kamai.ai/admin/feedback", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${profileToken}`,
+        },
+        body: JSON.stringify(feedbackData),
+      });
 
       if (response.ok) {
         const data = await response.json();

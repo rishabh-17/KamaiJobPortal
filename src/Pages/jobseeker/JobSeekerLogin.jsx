@@ -20,19 +20,16 @@ const JobSeekerLogin = () => {
     }
 
     try {
-      const otpResponse = await fetch(
-        "http://k8s-developm-ingressa-1c98111f81-862727769.ap-south-1.elb.amazonaws.com/jobseeker/otp",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            loginType: "MOBILE",
-            username: `+91${phoneNumber}`,
-          }),
-        }
-      );
+      const otpResponse = await fetch("https://dev.kamai.ai/jobseeker/otp", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          loginType: "MOBILE",
+          username: `+91${phoneNumber}`,
+        }),
+      });
 
       if (otpResponse.ok) {
         setIsOtpSent(true);
@@ -77,7 +74,8 @@ const JobSeekerLogin = () => {
                   fontSize: "20px",
                   fontWeight: 700,
                   paddingBottom: "32px",
-                }}>
+                }}
+              >
                 Enter your mobile number
               </h6>
               <div className="input-group input-group-lg mb-4">
@@ -88,7 +86,8 @@ const JobSeekerLogin = () => {
                     alignItems: "center",
                     paddingRight: "12px",
                     fontWeight: 600,
-                  }}>
+                  }}
+                >
                   +91
                 </h6>
                 <input
@@ -111,7 +110,8 @@ const JobSeekerLogin = () => {
                 />
               </div>
               <div
-                style={{ color: "rgba(106, 106, 106, 0.5)", fontSize: "12px" }}>
+                style={{ color: "rgba(106, 106, 106, 0.5)", fontSize: "12px" }}
+              >
                 By continuing, you agree to the Apna's Terms of service and
                 Privacy Policy
               </div>
@@ -125,7 +125,8 @@ const JobSeekerLogin = () => {
                     display: "inherit",
                     background: "#f59300",
                     border: "none",
-                  }}>
+                  }}
+                >
                   Next
                 </Button>
               </div>
