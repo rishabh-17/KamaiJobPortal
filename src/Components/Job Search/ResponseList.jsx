@@ -19,104 +19,7 @@ const ListCandidates = () => {
   const navigate = useNavigate();
   const { jobId } = useParams();
   let [searchParams, setSearchParams] = useSearchParams();
-  const [selected, setSelected] = useState({
-    id: 97,
-    jobId: 294,
-    jobseekerId: 573,
-    jobseekerDTO: {
-      jobseekerId: 573,
-      educationDetails: [
-        {
-          educationId: 31,
-          jobseekerId: 573,
-          degree: "10th",
-          institution: "Sri Saraswathi Shishu Mandir",
-          course: "",
-          specialization: "",
-          startDate: "2000-06-24T19:41:00",
-          endDate: "2010-05-24T19:41:00",
-          fullTime: true,
-          partTime: false,
-        },
-      ],
-      workExperience: [
-        {
-          experienceId: 61,
-          jobseekerId: 573,
-          jobTitle: "Plumber",
-          companyName: "Utban Claps",
-          startDate: "2023-06-24T19:45:00",
-          endDate: "2024-08-01T19:45:00",
-          currentEmployer: false,
-          description: "Did plumbing work",
-        },
-      ],
-      languages: [
-        {
-          id: 56,
-          jobseekerId: 573,
-          languageId: null,
-          language: "Hindi,Telugu",
-        },
-      ],
-      skills: [],
-      fullName: "Rajesh Test",
-      mobileNumber: "+912580258025",
-      email: null,
-      username: "+912580258025",
-      experience: null,
-      location: "Hyderabad",
-      locationId: null,
-      preferredJobRoles: [
-        {
-          preferredJobRoleId: 604,
-          preferredJobRoleName: "Electrician",
-        },
-        {
-          preferredJobRoleId: 600,
-          preferredJobRoleName: "Truck driver",
-        },
-        {
-          preferredJobRoleId: 601,
-          preferredJobRoleName: "Plumber/pipeshifter",
-        },
-        {
-          preferredJobRoleId: 603,
-          preferredJobRoleName: "Delivery Boy",
-        },
-        {
-          preferredJobRoleId: 602,
-          preferredJobRoleName: "Telecaller",
-        },
-      ],
-      jobseekerCertifications: [],
-      jobRole: null,
-      qualification: null,
-      qualificationId: null,
-      profileHeadline: null,
-      keySkills: '["Delivery Boy","Plumber/pipeshifter"]',
-      resumeKey: null,
-      videoResumeKey:
-        "https://qualifyde-chime-dev-v1.s3.amazonaws.com/video_resume/573/processed/combined.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240825T182600Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA2CEHN5FADGGRLBX4%2F20240825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c72608073e61b9639f85ece305da581a59b86a415793a2e1fa1f24da76d5a743",
-      profilePicKey:
-        "https://kamai-jobseeker-docs.s3.ap-south-1.amazonaws.com/573/profile-pic/1000046141.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240825T182600Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAXYKJTWOTRHAT6NES%2F20240825%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=fe9f6e822893f34e76faaae76f7652b2401bb04ae0064e2b367f9781baab48f6",
-      disability: false,
-      gender: null,
-      genderId: null,
-    },
-    createdOn: "2024-08-24T14:46:27",
-    updatedOn: null,
-    statusId: "1",
-    name: "Rajesh Test",
-    location: "Hyderabad",
-    locationId: 0,
-    qualification: null,
-    qualificationId: 0,
-    gender: null,
-    genderId: 0,
-    experience: null,
-    languageList: "Hindi,Telugu",
-  });
+  const [selected, setSelected] = useState({});
   const [page, setPage] = useState(1);
   const [paginationArray, setPaginationArray] = useState([]);
   const [openFilter, setOpenFilter] = useState(null);
@@ -137,9 +40,9 @@ const ListCandidates = () => {
     fetchCandidateResponse,
   } = useContext(JobContext);
 
-  // useEffect(() => {
-  //   setSelected(candidatesResponse?.content?.[0]);
-  // }, [candidatesResponse]);
+  useEffect(() => {
+    setSelected(candidatesResponse?.content?.[0]);
+  }, [candidatesResponse]);
 
   useEffect(() => {
     const expMin = searchParams.get("expMin");
