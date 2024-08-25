@@ -615,9 +615,7 @@ const JobContextProvider = ({ children }) => {
         console.log(data);
         setNotifications(data);
       })
-      .catch((error) => {
-        toast.error("Error In fetching notifications");
-      });
+      .catch((error) => {});
   };
 
   return (
