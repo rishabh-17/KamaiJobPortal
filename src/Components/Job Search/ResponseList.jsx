@@ -19,7 +19,104 @@ const ListCandidates = () => {
   const navigate = useNavigate();
   const { jobId } = useParams();
   let [searchParams, setSearchParams] = useSearchParams();
-  const [selected, setSelected] = useState({});
+  const [selected, setSelected] = useState({
+    id: 97,
+    jobId: 294,
+    jobseekerId: 573,
+    jobseekerDTO: {
+      jobseekerId: 573,
+      educationDetails: [
+        {
+          educationId: 31,
+          jobseekerId: 573,
+          degree: "10th",
+          institution: "Sri Saraswathi Shishu Mandir",
+          course: "",
+          specialization: "",
+          startDate: "2000-06-24T19:41:00",
+          endDate: "2010-05-24T19:41:00",
+          fullTime: true,
+          partTime: false,
+        },
+      ],
+      workExperience: [
+        {
+          experienceId: 61,
+          jobseekerId: 573,
+          jobTitle: "Plumber",
+          companyName: "Utban Claps",
+          startDate: "2023-06-24T19:45:00",
+          endDate: "2024-08-01T19:45:00",
+          currentEmployer: false,
+          description: "Did plumbing work",
+        },
+      ],
+      languages: [
+        {
+          id: 56,
+          jobseekerId: 573,
+          languageId: null,
+          language: "Hindi,Telugu",
+        },
+      ],
+      skills: [],
+      fullName: "Rajesh Test",
+      mobileNumber: "+912580258025",
+      email: null,
+      username: "+912580258025",
+      experience: null,
+      location: "Hyderabad",
+      locationId: null,
+      preferredJobRoles: [
+        {
+          preferredJobRoleId: 604,
+          preferredJobRoleName: "Electrician",
+        },
+        {
+          preferredJobRoleId: 600,
+          preferredJobRoleName: "Truck driver",
+        },
+        {
+          preferredJobRoleId: 601,
+          preferredJobRoleName: "Plumber/pipeshifter",
+        },
+        {
+          preferredJobRoleId: 603,
+          preferredJobRoleName: "Delivery Boy",
+        },
+        {
+          preferredJobRoleId: 602,
+          preferredJobRoleName: "Telecaller",
+        },
+      ],
+      jobseekerCertifications: [],
+      jobRole: null,
+      qualification: null,
+      qualificationId: null,
+      profileHeadline: null,
+      keySkills: '["Delivery Boy","Plumber/pipeshifter"]',
+      resumeKey: null,
+      videoResumeKey:
+        "https://qualifyde-chime-dev-v1.s3.amazonaws.com/video_resume/573/processed/combined.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240825T182600Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA2CEHN5FADGGRLBX4%2F20240825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c72608073e61b9639f85ece305da581a59b86a415793a2e1fa1f24da76d5a743",
+      profilePicKey:
+        "https://kamai-jobseeker-docs.s3.ap-south-1.amazonaws.com/573/profile-pic/1000046141.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240825T182600Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAXYKJTWOTRHAT6NES%2F20240825%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=fe9f6e822893f34e76faaae76f7652b2401bb04ae0064e2b367f9781baab48f6",
+      disability: false,
+      gender: null,
+      genderId: null,
+    },
+    createdOn: "2024-08-24T14:46:27",
+    updatedOn: null,
+    statusId: "1",
+    name: "Rajesh Test",
+    location: "Hyderabad",
+    locationId: 0,
+    qualification: null,
+    qualificationId: 0,
+    gender: null,
+    genderId: 0,
+    experience: null,
+    languageList: "Hindi,Telugu",
+  });
   const [page, setPage] = useState(1);
   const [paginationArray, setPaginationArray] = useState([]);
   const [openFilter, setOpenFilter] = useState(null);
@@ -40,9 +137,9 @@ const ListCandidates = () => {
     fetchCandidateResponse,
   } = useContext(JobContext);
 
-  useEffect(() => {
-    setSelected(candidatesResponse?.content?.[0]);
-  }, [candidatesResponse]);
+  // useEffect(() => {
+  //   setSelected(candidatesResponse?.content?.[0]);
+  // }, [candidatesResponse]);
 
   useEffect(() => {
     const expMin = searchParams.get("expMin");
@@ -396,11 +493,11 @@ const ListCandidates = () => {
               {selected && (
                 <article className="rounded-xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8">
                   <div className="flex items-start w-full sm:gap-8">
-                    {selected.profilePicKey ? (
+                    {selected?.jobseekerDTO?.profilePicKey ? (
                       <img
-                        src={`path/to/profilePics/${selected.profilePicKey}`}
-                        className="h-20 w-20"
-                        alt=""
+                        src={selected?.jobseekerDTO?.profilePicKey}
+                        className="h-20 w-20 rounded-full"
+                        alt="Profile Picture"
                       />
                     ) : (
                       <div
@@ -442,7 +539,6 @@ const ListCandidates = () => {
                                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                               ></path>
                             </svg>
-
                             <p className="text-xs font-medium">
                               {calculateTimeDifference(selected.createdOn)}
                             </p>
@@ -452,7 +548,9 @@ const ListCandidates = () => {
                     </div>
                   </div>
 
-                  <hr />
+                  <hr className="my-4" />
+
+                  {/* Video Resume Section */}
 
                   <div className="overflow-auto h-[400px]">
                     <h3 className="mt-4 text-lg font-medium sm:text-xl">
@@ -460,9 +558,19 @@ const ListCandidates = () => {
                         Candidate Details
                       </a>
                     </h3>
-
+                    <h3 className="text-lg font-medium">Video Profile</h3>
+                    {selected?.jobseekerDTO?.videoResumeKey && (
+                      <div className="mb-4 flex justify-center">
+                        <video
+                          src={selected?.jobseekerDTO?.videoResumeKey}
+                          controls
+                          className="mt-2  h-80 rounded-md shadow-md"
+                        ></video>
+                      </div>
+                    )}
                     <div className="flow-root mx-2">
                       <dl className="-my-3 divide-y divide-gray-100 text-sm">
+                        {/* Full Name */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">
                             Full Name
@@ -472,6 +580,7 @@ const ListCandidates = () => {
                           </dd>
                         </div>
 
+                        {/* Location */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">
                             Location
@@ -481,6 +590,7 @@ const ListCandidates = () => {
                           </dd>
                         </div>
 
+                        {/* Profile Headline */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">
                             Profile Headline
@@ -491,6 +601,7 @@ const ListCandidates = () => {
                           </dd>
                         </div>
 
+                        {/* Email */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">Email</dt>
                           <dd className="text-gray-700 sm:col-span-2">
@@ -498,6 +609,7 @@ const ListCandidates = () => {
                           </dd>
                         </div>
 
+                        {/* Mobile Number */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">
                             Mobile Number
@@ -507,6 +619,7 @@ const ListCandidates = () => {
                           </dd>
                         </div>
 
+                        {/* Languages */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">
                             Languages
@@ -516,14 +629,16 @@ const ListCandidates = () => {
                           </dd>
                         </div>
 
-                        {selected.educationDetails?.length > 0 && (
+                        {/* Education Details */}
+                        {selected?.jobseekerDTO?.educationDetails?.length >
+                          0 && (
                           <>
                             <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                               <dt className="font-medium text-gray-900">
                                 Education
                               </dt>
                               <dd className="text-gray-700 sm:col-span-2">
-                                {selected.educationDetails.map(
+                                {selected?.jobseekerDTO?.educationDetails.map(
                                   (education, index) => (
                                     <div key={index}>
                                       {education.degree} from{" "}
@@ -544,14 +659,15 @@ const ListCandidates = () => {
                           </>
                         )}
 
-                        {selected.workExperience?.length > 0 && (
+                        {/* Work Experience */}
+                        {selected?.jobseekerDTO?.workExperience?.length > 0 && (
                           <>
                             <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                               <dt className="font-medium text-gray-900">
                                 Work Experience
                               </dt>
                               <dd className="text-gray-700 sm:col-span-2">
-                                {selected.workExperience.map(
+                                {selected?.jobseekerDTO?.workExperience?.map(
                                   (experience, index) => (
                                     <div key={index}>
                                       {experience.jobTitle} at{" "}
@@ -572,12 +688,13 @@ const ListCandidates = () => {
                           </>
                         )}
 
+                        {/* Preferred Job Roles */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
                           <dt className="font-medium text-gray-900">
                             Preferred Job Roles
                           </dt>
                           <dd className="text-gray-700 sm:col-span-2">
-                            {selected?.preferredJobRoles
+                            {selected?.jobseekerDTO?.preferredJobRoles
                               ?.map((role) => role.preferredJobRoleName)
                               ?.join(", ")}
                           </dd>
