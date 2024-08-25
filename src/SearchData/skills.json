@@ -1,0 +1,1932 @@
+[
+	{
+		"id" : 393,
+		"jobtitle_id" : 1,
+		"skill" : "Technical knowledge"
+	},
+	{
+		"id" : 394,
+		"jobtitle_id" : 1,
+		"skill" : "Electric systems"
+	},
+	{
+		"id" : 395,
+		"jobtitle_id" : 1,
+		"skill" : "Problem solving"
+	},
+	{
+		"id" : 396,
+		"jobtitle_id" : 1,
+		"skill" : "Safety awareness"
+	},
+	{
+		"id" : 397,
+		"jobtitle_id" : 1,
+		"skill" : "Communication"
+	},
+	{
+		"id" : 398,
+		"jobtitle_id" : 2,
+		"skill" : "Communication"
+	},
+	{
+		"id" : 399,
+		"jobtitle_id" : 2,
+		"skill" : "Customer Relationship"
+	},
+	{
+		"id" : 400,
+		"jobtitle_id" : 2,
+		"skill" : "Communication"
+	},
+	{
+		"id" : 401,
+		"jobtitle_id" : 2,
+		"skill" : "adaptability"
+	},
+	{
+		"id" : 402,
+		"jobtitle_id" : 3,
+		"skill" : "plumbing Systems"
+	},
+	{
+		"id" : 403,
+		"jobtitle_id" : 3,
+		"skill" : "Safety"
+	},
+	{
+		"id" : 404,
+		"jobtitle_id" : 3,
+		"skill" : "Welding"
+	},
+	{
+		"id" : 405,
+		"jobtitle_id" : 4,
+		"skill" : "construction"
+	},
+	{
+		"id" : 406,
+		"jobtitle_id" : 5,
+		"skill" : "cooking"
+	},
+	{
+		"id" : 407,
+		"jobtitle_id" : 5,
+		"skill" : "knowledge in different cuisines"
+	},
+	{
+		"id" : 408,
+		"jobtitle_id" : 6,
+		"skill" : "driving"
+	},
+	{
+		"id" : 409,
+		"jobtitle_id" : 7,
+		"skill" : "cleaning"
+	},
+	{
+		"id" : 410,
+		"jobtitle_id" : 7,
+		"skill" : "maintanence"
+	},
+	{
+		"id" : 411,
+		"jobtitle_id" : 8,
+		"skill" : "driving license"
+	},
+	{
+		"id" : 412,
+		"jobtitle_id" : 8,
+		"skill" : "driving"
+	},
+	{
+		"id" : 413,
+		"jobtitle_id" : 8,
+		"skill" : "traffic rules and regulations"
+	},
+	{
+		"id" : 414,
+		"jobtitle_id" : 8,
+		"skill" : "clean driving"
+	},
+	{
+		"id" : 415,
+		"jobtitle_id" : 9,
+		"skill" : "Painting"
+	},
+	{
+		"id" : 416,
+		"jobtitle_id" : 9,
+		"skill" : "spray painting"
+	},
+	{
+		"id" : 417,
+		"jobtitle_id" : 9,
+		"skill" : "sanding"
+	},
+	{
+		"id" : 418,
+		"jobtitle_id" : 9,
+		"skill" : "brush and roller skills"
+	},
+	{
+		"id" : 419,
+		"jobtitle_id" : 10,
+		"skill" : "blu-print reading"
+	},
+	{
+		"id" : 420,
+		"jobtitle_id" : 10,
+		"skill" : "safety standards"
+	},
+	{
+		"id" : 421,
+		"jobtitle_id" : 10,
+		"skill" : "welding techniques"
+	},
+	{
+		"id" : 422,
+		"jobtitle_id" : 10,
+		"skill" : "metal cutting"
+	},
+	{
+		"id" : 423,
+		"jobtitle_id" : 11,
+		"skill" : "driving license"
+	},
+	{
+		"id" : 424,
+		"jobtitle_id" : 11,
+		"skill" : "driving"
+	},
+	{
+		"id" : 425,
+		"jobtitle_id" : 11,
+		"skill" : "traffic rules and regulations"
+	},
+	{
+		"id" : 426,
+		"jobtitle_id" : 11,
+		"skill" : "clean driving"
+	},
+	{
+		"id" : 427,
+		"jobtitle_id" : 12,
+		"skill" : "cleaning"
+	},
+	{
+		"id" : 428,
+		"jobtitle_id" : 12,
+		"skill" : "organising"
+	},
+	{
+		"id" : 429,
+		"jobtitle_id" : 12,
+		"skill" : "maintaing hygeine"
+	},
+	{
+		"id" : 430,
+		"jobtitle_id" : 12,
+		"skill" : "time management"
+	},
+	{
+		"id" : 431,
+		"jobtitle_id" : 12,
+		"skill" : "trust worthy"
+	},
+	{
+		"id" : 432,
+		"jobtitle_id" : 13,
+		"skill" : "the Indian Nursing Council (INC) exam"
+	},
+	{
+		"id" : 433,
+		"jobtitle_id" : 13,
+		"skill" : " INC license"
+	},
+	{
+		"id" : 434,
+		"jobtitle_id" : 14,
+		"skill" : "communication"
+	},
+	{
+		"id" : 435,
+		"jobtitle_id" : 14,
+		"skill" : "typing"
+	},
+	{
+		"id" : 436,
+		"jobtitle_id" : 14,
+		"skill" : "consumer relationship"
+	},
+	{
+		"id" : 437,
+		"jobtitle_id" : 14,
+		"skill" : "active listening"
+	},
+	{
+		"id" : 438,
+		"jobtitle_id" : 14,
+		"skill" : "basic computer skills"
+	},
+	{
+		"id" : 439,
+		"jobtitle_id" : 15,
+		"skill" : "operations"
+	},
+	{
+		"id" : 440,
+		"jobtitle_id" : 15,
+		"skill" : "attention to detail"
+	},
+	{
+		"id" : 441,
+		"jobtitle_id" : 15,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 442,
+		"jobtitle_id" : 15,
+		"skill" : "machines"
+	},
+	{
+		"id" : 443,
+		"jobtitle_id" : 16,
+		"skill" : "repair"
+	},
+	{
+		"id" : 444,
+		"jobtitle_id" : 16,
+		"skill" : "vehicle knowledge"
+	},
+	{
+		"id" : 445,
+		"jobtitle_id" : 16,
+		"skill" : "machines"
+	},
+	{
+		"id" : 446,
+		"jobtitle_id" : 17,
+		"skill" : "safety"
+	},
+	{
+		"id" : 447,
+		"jobtitle_id" : 17,
+		"skill" : "blueprint reading"
+	},
+	{
+		"id" : 448,
+		"jobtitle_id" : 17,
+		"skill" : "operations"
+	},
+	{
+		"id" : 449,
+		"jobtitle_id" : 18,
+		"skill" : "Chopping"
+	},
+	{
+		"id" : 450,
+		"jobtitle_id" : 18,
+		"skill" : "food prep"
+	},
+	{
+		"id" : 451,
+		"jobtitle_id" : 18,
+		"skill" : "cleaning"
+	},
+	{
+		"id" : 452,
+		"jobtitle_id" : 18,
+		"skill" : "inventory restocking"
+	},
+	{
+		"id" : 453,
+		"jobtitle_id" : 19,
+		"skill" : "Physically fit"
+	},
+	{
+		"id" : 454,
+		"jobtitle_id" : 19,
+		"skill" : "patrolling"
+	},
+	{
+		"id" : 455,
+		"jobtitle_id" : 19,
+		"skill" : "sobriety"
+	},
+	{
+		"id" : 456,
+		"jobtitle_id" : 19,
+		"skill" : "teamwork"
+	},
+	{
+		"id" : 457,
+		"jobtitle_id" : 20,
+		"skill" : "washing and drying clothes"
+	},
+	{
+		"id" : 458,
+		"jobtitle_id" : 20,
+		"skill" : "cleanliness"
+	},
+	{
+		"id" : 459,
+		"jobtitle_id" : 21,
+		"skill" : "agriculture"
+	},
+	{
+		"id" : 460,
+		"jobtitle_id" : 21,
+		"skill" : "physical labor"
+	},
+	{
+		"id" : 461,
+		"jobtitle_id" : 21,
+		"skill" : "physically fit"
+	},
+	{
+		"id" : 462,
+		"jobtitle_id" : 22,
+		"skill" : "mixology and preparation"
+	},
+	{
+		"id" : 463,
+		"jobtitle_id" : 22,
+		"skill" : "memory"
+	},
+	{
+		"id" : 464,
+		"jobtitle_id" : 22,
+		"skill" : "organisation"
+	},
+	{
+		"id" : 465,
+		"jobtitle_id" : 23,
+		"skill" : "cleaning"
+	},
+	{
+		"id" : 466,
+		"jobtitle_id" : 23,
+		"skill" : "hygeine"
+	},
+	{
+		"id" : 467,
+		"jobtitle_id" : 23,
+		"skill" : "organisation"
+	},
+	{
+		"id" : 468,
+		"jobtitle_id" : 24,
+		"skill" : "inspection"
+	},
+	{
+		"id" : 469,
+		"jobtitle_id" : 24,
+		"skill" : "pesticide usage"
+	},
+	{
+		"id" : 470,
+		"jobtitle_id" : 24,
+		"skill" : "chemical treatments"
+	},
+	{
+		"id" : 471,
+		"jobtitle_id" : 25,
+		"skill" : "HVAC"
+	},
+	{
+		"id" : 472,
+		"jobtitle_id" : 25,
+		"skill" : "repair"
+	},
+	{
+		"id" : 473,
+		"jobtitle_id" : 25,
+		"skill" : "maintenance"
+	},
+	{
+		"id" : 474,
+		"jobtitle_id" : 25,
+		"skill" : "plumbing"
+	},
+	{
+		"id" : 475,
+		"jobtitle_id" : 25,
+		"skill" : "AC systems"
+	},
+	{
+		"id" : 476,
+		"jobtitle_id" : 25,
+		"skill" : "Safety"
+	},
+	{
+		"id" : 477,
+		"jobtitle_id" : 26,
+		"skill" : "Repair"
+	},
+	{
+		"id" : 478,
+		"jobtitle_id" : 26,
+		"skill" : "system knowledge"
+	},
+	{
+		"id" : 479,
+		"jobtitle_id" : 26,
+		"skill" : "servicing"
+	},
+	{
+		"id" : 480,
+		"jobtitle_id" : 26,
+		"skill" : "home appliances"
+	},
+	{
+		"id" : 481,
+		"jobtitle_id" : 27,
+		"skill" : "Cleaning"
+	},
+	{
+		"id" : 482,
+		"jobtitle_id" : 27,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 483,
+		"jobtitle_id" : 28,
+		"skill" : "sewing"
+	},
+	{
+		"id" : 484,
+		"jobtitle_id" : 28,
+		"skill" : "design"
+	},
+	{
+		"id" : 485,
+		"jobtitle_id" : 28,
+		"skill" : "repairing garment"
+	},
+	{
+		"id" : 486,
+		"jobtitle_id" : 28,
+		"skill" : "stitching"
+	},
+	{
+		"id" : 487,
+		"jobtitle_id" : 28,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 488,
+		"jobtitle_id" : 29,
+		"skill" : "building"
+	},
+	{
+		"id" : 489,
+		"jobtitle_id" : 29,
+		"skill" : "safety rules"
+	},
+	{
+		"id" : 490,
+		"jobtitle_id" : 29,
+		"skill" : "blueprint reading"
+	},
+	{
+		"id" : 491,
+		"jobtitle_id" : 29,
+		"skill" : "hand tools"
+	},
+	{
+		"id" : 492,
+		"jobtitle_id" : 30,
+		"skill" : "blue-print reading"
+	},
+	{
+		"id" : 493,
+		"jobtitle_id" : 30,
+		"skill" : " hand-tools"
+	},
+	{
+		"id" : 494,
+		"jobtitle_id" : 30,
+		"skill" : "general construction"
+	},
+	{
+		"id" : 495,
+		"jobtitle_id" : 30,
+		"skill" : "safety rules"
+	},
+	{
+		"id" : 496,
+		"jobtitle_id" : 31,
+		"skill" : "Diploma in Pharmacy"
+	},
+	{
+		"id" : 497,
+		"jobtitle_id" : 31,
+		"skill" : "communication"
+	},
+	{
+		"id" : 498,
+		"jobtitle_id" : 31,
+		"skill" : "attention to detail"
+	},
+	{
+		"id" : 499,
+		"jobtitle_id" : 31,
+		"skill" : "basic computer skills"
+	},
+	{
+		"id" : 500,
+		"jobtitle_id" : 32,
+		"skill" : "Cleanliness"
+	},
+	{
+		"id" : 501,
+		"jobtitle_id" : 32,
+		"skill" : "organisation"
+	},
+	{
+		"id" : 502,
+		"jobtitle_id" : 32,
+		"skill" : "communication"
+	},
+	{
+		"id" : 503,
+		"jobtitle_id" : 32,
+		"skill" : "laundry"
+	},
+	{
+		"id" : 504,
+		"jobtitle_id" : 33,
+		"skill" : "cooking"
+	},
+	{
+		"id" : 505,
+		"jobtitle_id" : 33,
+		"skill" : "knowledge in different cuisines"
+	},
+	{
+		"id" : 506,
+		"jobtitle_id" : 33,
+		"skill" : "culinary skills"
+	},
+	{
+		"id" : 507,
+		"jobtitle_id" : 33,
+		"skill" : "leadership"
+	},
+	{
+		"id" : 508,
+		"jobtitle_id" : 33,
+		"skill" : "staff management"
+	},
+	{
+		"id" : 509,
+		"jobtitle_id" : 34,
+		"skill" : "coffee knowledge"
+	},
+	{
+		"id" : 510,
+		"jobtitle_id" : 34,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 511,
+		"jobtitle_id" : 34,
+		"skill" : "espresso machine"
+	},
+	{
+		"id" : 512,
+		"jobtitle_id" : 35,
+		"skill" : "accounting tools"
+	},
+	{
+		"id" : 513,
+		"jobtitle_id" : 35,
+		"skill" : "time management"
+	},
+	{
+		"id" : 514,
+		"jobtitle_id" : 35,
+		"skill" : "billing systems"
+	},
+	{
+		"id" : 515,
+		"jobtitle_id" : 36,
+		"skill" : "empathetic"
+	},
+	{
+		"id" : 516,
+		"jobtitle_id" : 36,
+		"skill" : "compassion"
+	},
+	{
+		"id" : 517,
+		"jobtitle_id" : 36,
+		"skill" : "communication"
+	},
+	{
+		"id" : 518,
+		"jobtitle_id" : 36,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 519,
+		"jobtitle_id" : 36,
+		"skill" : "first aid"
+	},
+	{
+		"id" : 520,
+		"jobtitle_id" : 37,
+		"skill" : "pruning"
+	},
+	{
+		"id" : 521,
+		"jobtitle_id" : 37,
+		"skill" : "hand tools"
+	},
+	{
+		"id" : 522,
+		"jobtitle_id" : 37,
+		"skill" : "farming"
+	},
+	{
+		"id" : 523,
+		"jobtitle_id" : 37,
+		"skill" : "pest control"
+	},
+	{
+		"id" : 524,
+		"jobtitle_id" : 38,
+		"skill" : "math"
+	},
+	{
+		"id" : 525,
+		"jobtitle_id" : 38,
+		"skill" : "AutoCAD"
+	},
+	{
+		"id" : 526,
+		"jobtitle_id" : 38,
+		"skill" : "3D Modelling"
+	},
+	{
+		"id" : 527,
+		"jobtitle_id" : 38,
+		"skill" : "technical drawing"
+	},
+	{
+		"id" : 528,
+		"jobtitle_id" : 38,
+		"skill" : "communication"
+	},
+	{
+		"id" : 529,
+		"jobtitle_id" : 39,
+		"skill" : "Editing"
+	},
+	{
+		"id" : 530,
+		"jobtitle_id" : 39,
+		"skill" : "research"
+	},
+	{
+		"id" : 531,
+		"jobtitle_id" : 39,
+		"skill" : "technical writing"
+	},
+	{
+		"id" : 532,
+		"jobtitle_id" : 39,
+		"skill" : "communication"
+	},
+	{
+		"id" : 533,
+		"jobtitle_id" : 40,
+		"skill" : "organising"
+	},
+	{
+		"id" : 534,
+		"jobtitle_id" : 40,
+		"skill" : "monitoring supplies"
+	},
+	{
+		"id" : 535,
+		"jobtitle_id" : 40,
+		"skill" : "service"
+	},
+	{
+		"id" : 536,
+		"jobtitle_id" : 41,
+		"skill" : "communication"
+	},
+	{
+		"id" : 537,
+		"jobtitle_id" : 41,
+		"skill" : "leadership"
+	},
+	{
+		"id" : 538,
+		"jobtitle_id" : 41,
+		"skill" : "patience"
+	},
+	{
+		"id" : 539,
+		"jobtitle_id" : 41,
+		"skill" : "people management"
+	},
+	{
+		"id" : 540,
+		"jobtitle_id" : 41,
+		"skill" : "subject knowledge"
+	},
+	{
+		"id" : 541,
+		"jobtitle_id" : 42,
+		"skill" : "communication"
+	},
+	{
+		"id" : 542,
+		"jobtitle_id" : 42,
+		"skill" : "negotiation"
+	},
+	{
+		"id" : 543,
+		"jobtitle_id" : 42,
+		"skill" : "active listening"
+	},
+	{
+		"id" : 544,
+		"jobtitle_id" : 42,
+		"skill" : "story telling"
+	},
+	{
+		"id" : 545,
+		"jobtitle_id" : 43,
+		"skill" : "communication"
+	},
+	{
+		"id" : 546,
+		"jobtitle_id" : 43,
+		"skill" : "subject knowledge"
+	},
+	{
+		"id" : 547,
+		"jobtitle_id" : 43,
+		"skill" : "patient"
+	},
+	{
+		"id" : 548,
+		"jobtitle_id" : 44,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 549,
+		"jobtitle_id" : 44,
+		"skill" : "inventory management"
+	},
+	{
+		"id" : 550,
+		"jobtitle_id" : 45,
+		"skill" : " typing"
+	},
+	{
+		"id" : 551,
+		"jobtitle_id" : 45,
+		"skill" : "data entry"
+	},
+	{
+		"id" : 552,
+		"jobtitle_id" : 45,
+		"skill" : "microsoft office"
+	},
+	{
+		"id" : 553,
+		"jobtitle_id" : 45,
+		"skill" : "administrative experience"
+	},
+	{
+		"id" : 554,
+		"jobtitle_id" : 46,
+		"skill" : "serving"
+	},
+	{
+		"id" : 555,
+		"jobtitle_id" : 46,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 556,
+		"jobtitle_id" : 46,
+		"skill" : "restaurant experience"
+	},
+	{
+		"id" : 557,
+		"jobtitle_id" : 47,
+		"skill" : " typing"
+	},
+	{
+		"id" : 558,
+		"jobtitle_id" : 47,
+		"skill" : "basic math"
+	},
+	{
+		"id" : 559,
+		"jobtitle_id" : 47,
+		"skill" : "sales"
+	},
+	{
+		"id" : 560,
+		"jobtitle_id" : 47,
+		"skill" : "joural entry"
+	},
+	{
+		"id" : 561,
+		"jobtitle_id" : 47,
+		"skill" : "taxation"
+	},
+	{
+		"id" : 562,
+		"jobtitle_id" : 47,
+		"skill" : "email"
+	},
+	{
+		"id" : 563,
+		"jobtitle_id" : 47,
+		"skill" : "tally"
+	},
+	{
+		"id" : 564,
+		"jobtitle_id" : 48,
+		"skill" : "restaurant experience"
+	},
+	{
+		"id" : 565,
+		"jobtitle_id" : 48,
+		"skill" : "dessert"
+	},
+	{
+		"id" : 566,
+		"jobtitle_id" : 48,
+		"skill" : "cooking"
+	},
+	{
+		"id" : 567,
+		"jobtitle_id" : 49,
+		"skill" : "resaturant experience"
+	},
+	{
+		"id" : 568,
+		"jobtitle_id" : 49,
+		"skill" : "fast food"
+	},
+	{
+		"id" : 569,
+		"jobtitle_id" : 49,
+		"skill" : "cooking"
+	},
+	{
+		"id" : 570,
+		"jobtitle_id" : 50,
+		"skill" : "cooking skills"
+	},
+	{
+		"id" : 571,
+		"jobtitle_id" : 50,
+		"skill" : "biryani"
+	},
+	{
+		"id" : 572,
+		"jobtitle_id" : 51,
+		"skill" : "food"
+	},
+	{
+		"id" : 573,
+		"jobtitle_id" : 51,
+		"skill" : "kitchenware"
+	},
+	{
+		"id" : 574,
+		"jobtitle_id" : 51,
+		"skill" : "washing"
+	},
+	{
+		"id" : 575,
+		"jobtitle_id" : 51,
+		"skill" : "sanitation"
+	},
+	{
+		"id" : 576,
+		"jobtitle_id" : 52,
+		"skill" : "12th Pass"
+	},
+	{
+		"id" : 577,
+		"jobtitle_id" : 52,
+		"skill" : "Diploma or degree in Radiologic Technology"
+	},
+	{
+		"id" : 578,
+		"jobtitle_id" : 52,
+		"skill" : "communication"
+	},
+	{
+		"id" : 579,
+		"jobtitle_id" : 52,
+		"skill" : "patient care"
+	},
+	{
+		"id" : 580,
+		"jobtitle_id" : 53,
+		"skill" : "Diploma in CT or MRI Technology"
+	},
+	{
+		"id" : 581,
+		"jobtitle_id" : 53,
+		"skill" : "communication"
+	},
+	{
+		"id" : 582,
+		"jobtitle_id" : 53,
+		"skill" : "patient care"
+	},
+	{
+		"id" : 583,
+		"jobtitle_id" : 54,
+		"skill" : "degree or diploma in MLT/DMLT/Bsc-MLT"
+	},
+	{
+		"id" : 584,
+		"jobtitle_id" : 54,
+		"skill" : "Labrotary techniques"
+	},
+	{
+		"id" : 585,
+		"jobtitle_id" : 54,
+		"skill" : "quality control"
+	},
+	{
+		"id" : 586,
+		"jobtitle_id" : 54,
+		"skill" : "sample verification"
+	},
+	{
+		"id" : 587,
+		"jobtitle_id" : 54,
+		"skill" : "standard operating procedures"
+	},
+	{
+		"id" : 588,
+		"jobtitle_id" : 54,
+		"skill" : "calibration"
+	},
+	{
+		"id" : 589,
+		"jobtitle_id" : 55,
+		"skill" : "manage"
+	},
+	{
+		"id" : 590,
+		"jobtitle_id" : 55,
+		"skill" : "maintain supplies"
+	},
+	{
+		"id" : 591,
+		"jobtitle_id" : 55,
+		"skill" : "inspection"
+	},
+	{
+		"id" : 592,
+		"jobtitle_id" : 55,
+		"skill" : "inventory"
+	},
+	{
+		"id" : 593,
+		"jobtitle_id" : 56,
+		"skill" : "record keeping"
+	},
+	{
+		"id" : 594,
+		"jobtitle_id" : 56,
+		"skill" : "record deliveries"
+	},
+	{
+		"id" : 595,
+		"jobtitle_id" : 56,
+		"skill" : "stock levels"
+	},
+	{
+		"id" : 596,
+		"jobtitle_id" : 56,
+		"skill" : "suplly chain management"
+	},
+	{
+		"id" : 597,
+		"jobtitle_id" : 57,
+		"skill" : "communication"
+	},
+	{
+		"id" : 598,
+		"jobtitle_id" : 57,
+		"skill" : "organisation"
+	},
+	{
+		"id" : 599,
+		"jobtitle_id" : 57,
+		"skill" : "transportatin"
+	},
+	{
+		"id" : 600,
+		"jobtitle_id" : 57,
+		"skill" : "transport routes"
+	},
+	{
+		"id" : 601,
+		"jobtitle_id" : 58,
+		"skill" : "hygeine"
+	},
+	{
+		"id" : 602,
+		"jobtitle_id" : 58,
+		"skill" : "physical strong"
+	},
+	{
+		"id" : 603,
+		"jobtitle_id" : 58,
+		"skill" : "multitasking"
+	},
+	{
+		"id" : 604,
+		"jobtitle_id" : 58,
+		"skill" : "hospitality"
+	},
+	{
+		"id" : 605,
+		"jobtitle_id" : 59,
+		"skill" : "Equipment operation"
+	},
+	{
+		"id" : 606,
+		"jobtitle_id" : 59,
+		"skill" : "load balancing"
+	},
+	{
+		"id" : 607,
+		"jobtitle_id" : 59,
+		"skill" : "inventory management"
+	},
+	{
+		"id" : 608,
+		"jobtitle_id" : 60,
+		"skill" : "Driving"
+	},
+	{
+		"id" : 609,
+		"jobtitle_id" : 60,
+		"skill" : "parking"
+	},
+	{
+		"id" : 610,
+		"jobtitle_id" : 60,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 611,
+		"jobtitle_id" : 60,
+		"skill" : "memory"
+	},
+	{
+		"id" : 612,
+		"jobtitle_id" : 60,
+		"skill" : "communication"
+	},
+	{
+		"id" : 613,
+		"jobtitle_id" : 60,
+		"skill" : "traffic laws"
+	},
+	{
+		"id" : 614,
+		"jobtitle_id" : 61,
+		"skill" : "HVAC"
+	},
+	{
+		"id" : 615,
+		"jobtitle_id" : 61,
+		"skill" : "Maintanence"
+	},
+	{
+		"id" : 616,
+		"jobtitle_id" : 61,
+		"skill" : "hand tools"
+	},
+	{
+		"id" : 617,
+		"jobtitle_id" : 61,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 618,
+		"jobtitle_id" : 62,
+		"skill" : "Blood collection"
+	},
+	{
+		"id" : 619,
+		"jobtitle_id" : 62,
+		"skill" : "Safety protocls"
+	},
+	{
+		"id" : 620,
+		"jobtitle_id" : 62,
+		"skill" : "communication skills"
+	},
+	{
+		"id" : 621,
+		"jobtitle_id" : 63,
+		"skill" : "time management"
+	},
+	{
+		"id" : 622,
+		"jobtitle_id" : 63,
+		"skill" : "physical strength"
+	},
+	{
+		"id" : 623,
+		"jobtitle_id" : 63,
+		"skill" : "flexibility"
+	},
+	{
+		"id" : 624,
+		"jobtitle_id" : 64,
+		"skill" : "attention to detail"
+	},
+	{
+		"id" : 625,
+		"jobtitle_id" : 64,
+		"skill" : "critical thinking"
+	},
+	{
+		"id" : 626,
+		"jobtitle_id" : 64,
+		"skill" : "manual dexterity(hand skills)"
+	},
+	{
+		"id" : 627,
+		"jobtitle_id" : 64,
+		"skill" : "physical stamina"
+	},
+	{
+		"id" : 628,
+		"jobtitle_id" : 65,
+		"skill" : "physical strength"
+	},
+	{
+		"id" : 629,
+		"jobtitle_id" : 65,
+		"skill" : "time management"
+	},
+	{
+		"id" : 630,
+		"jobtitle_id" : 65,
+		"skill" : "driving"
+	},
+	{
+		"id" : 631,
+		"jobtitle_id" : 65,
+		"skill" : "emergency response"
+	},
+	{
+		"id" : 632,
+		"jobtitle_id" : 66,
+		"skill" : "customer interaction and service"
+	},
+	{
+		"id" : 633,
+		"jobtitle_id" : 66,
+		"skill" : "multitasking"
+	},
+	{
+		"id" : 634,
+		"jobtitle_id" : 66,
+		"skill" : "communication"
+	},
+	{
+		"id" : 635,
+		"jobtitle_id" : 67,
+		"skill" : "crane operation"
+	},
+	{
+		"id" : 636,
+		"jobtitle_id" : 67,
+		"skill" : "load balancing"
+	},
+	{
+		"id" : 637,
+		"jobtitle_id" : 67,
+		"skill" : "safety measures"
+	},
+	{
+		"id" : 638,
+		"jobtitle_id" : 68,
+		"skill" : "knowledge of lock systems"
+	},
+	{
+		"id" : 639,
+		"jobtitle_id" : 69,
+		"skill" : "documentation"
+	},
+	{
+		"id" : 640,
+		"jobtitle_id" : 69,
+		"skill" : "equipment maintenance"
+	},
+	{
+		"id" : 641,
+		"jobtitle_id" : 69,
+		"skill" : "patient care and safety"
+	},
+	{
+		"id" : 642,
+		"jobtitle_id" : 70,
+		"skill" : "knowledge on plants"
+	},
+	{
+		"id" : 643,
+		"jobtitle_id" : 70,
+		"skill" : "pest and disease control"
+	},
+	{
+		"id" : 644,
+		"jobtitle_id" : 70,
+		"skill" : "potting and transplanting"
+	},
+	{
+		"id" : 645,
+		"jobtitle_id" : 71,
+		"skill" : "crop cultivation"
+	},
+	{
+		"id" : 646,
+		"jobtitle_id" : 71,
+		"skill" : "equipment operation"
+	},
+	{
+		"id" : 647,
+		"jobtitle_id" : 71,
+		"skill" : "physical stamina"
+	},
+	{
+		"id" : 648,
+		"jobtitle_id" : 72,
+		"skill" : "physical stamina"
+	},
+	{
+		"id" : 649,
+		"jobtitle_id" : 72,
+		"skill" : "safety awareness"
+	},
+	{
+		"id" : 650,
+		"jobtitle_id" : 72,
+		"skill" : "tractor operation"
+	},
+	{
+		"id" : 651,
+		"jobtitle_id" : 72,
+		"skill" : "field operations"
+	},
+	{
+		"id" : 652,
+		"jobtitle_id" : 73,
+		"skill" : "animal care skills"
+	},
+	{
+		"id" : 653,
+		"jobtitle_id" : 74,
+		"skill" : "cleaning and maintenance"
+	},
+	{
+		"id" : 654,
+		"jobtitle_id" : 74,
+		"skill" : "organization"
+	},
+	{
+		"id" : 655,
+		"jobtitle_id" : 75,
+		"skill" : "strength"
+	},
+	{
+		"id" : 656,
+		"jobtitle_id" : 75,
+		"skill" : "inventory management"
+	},
+	{
+		"id" : 657,
+		"jobtitle_id" : 75,
+		"skill" : "order fulfillment"
+	},
+	{
+		"id" : 658,
+		"jobtitle_id" : 76,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 659,
+		"jobtitle_id" : 76,
+		"skill" : "knowledge of cuisine"
+	},
+	{
+		"id" : 660,
+		"jobtitle_id" : 76,
+		"skill" : "communication"
+	},
+	{
+		"id" : 661,
+		"jobtitle_id" : 77,
+		"skill" : "subject knowledge"
+	},
+	{
+		"id" : 662,
+		"jobtitle_id" : 77,
+		"skill" : "communication"
+	},
+	{
+		"id" : 663,
+		"jobtitle_id" : 77,
+		"skill" : "patience"
+	},
+	{
+		"id" : 664,
+		"jobtitle_id" : 78,
+		"skill" : "room setup"
+	},
+	{
+		"id" : 665,
+		"jobtitle_id" : 78,
+		"skill" : "surface cleaning"
+	},
+	{
+		"id" : 666,
+		"jobtitle_id" : 78,
+		"skill" : "bed making"
+	},
+	{
+		"id" : 667,
+		"jobtitle_id" : 78,
+		"skill" : "sanitization"
+	},
+	{
+		"id" : 668,
+		"jobtitle_id" : 78,
+		"skill" : " strength"
+	},
+	{
+		"id" : 669,
+		"jobtitle_id" : 79,
+		"skill" : "concrete/cement mixing"
+	},
+	{
+		"id" : 670,
+		"jobtitle_id" : 79,
+		"skill" : "leveling"
+	},
+	{
+		"id" : 671,
+		"jobtitle_id" : 79,
+		"skill" : "pouring"
+	},
+	{
+		"id" : 672,
+		"jobtitle_id" : 80,
+		"skill" : "Brick setting"
+	},
+	{
+		"id" : 673,
+		"jobtitle_id" : 80,
+		"skill" : "mortar mixing"
+	},
+	{
+		"id" : 674,
+		"jobtitle_id" : 80,
+		"skill" : " blueprint reading"
+	},
+	{
+		"id" : 675,
+		"jobtitle_id" : 81,
+		"skill" : " Machine operation"
+	},
+	{
+		"id" : 676,
+		"jobtitle_id" : 81,
+		"skill" : "equipment maintanance"
+	},
+	{
+		"id" : 677,
+		"jobtitle_id" : 81,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 678,
+		"jobtitle_id" : 82,
+		"skill" : "roof installation"
+	},
+	{
+		"id" : 679,
+		"jobtitle_id" : 82,
+		"skill" : "repair"
+	},
+	{
+		"id" : 680,
+		"jobtitle_id" : 82,
+		"skill" : "placement"
+	},
+	{
+		"id" : 681,
+		"jobtitle_id" : 83,
+		"skill" : "machine operation"
+	},
+	{
+		"id" : 682,
+		"jobtitle_id" : 83,
+		"skill" : "machine tools"
+	},
+	{
+		"id" : 683,
+		"jobtitle_id" : 83,
+		"skill" : "setting tools"
+	},
+	{
+		"id" : 684,
+		"jobtitle_id" : 84,
+		"skill" : "Inspection techniques"
+	},
+	{
+		"id" : 685,
+		"jobtitle_id" : 84,
+		"skill" : "Attention to detail"
+	},
+	{
+		"id" : 686,
+		"jobtitle_id" : 84,
+		"skill" : "report writing"
+	},
+	{
+		"id" : 687,
+		"jobtitle_id" : 85,
+		"skill" : "physical fitness and presence"
+	},
+	{
+		"id" : 688,
+		"jobtitle_id" : 85,
+		"skill" : "conflict management"
+	},
+	{
+		"id" : 689,
+		"jobtitle_id" : 85,
+		"skill" : "communication"
+	},
+	{
+		"id" : 690,
+		"jobtitle_id" : 86,
+		"skill" : "Glass cutting"
+	},
+	{
+		"id" : 691,
+		"jobtitle_id" : 86,
+		"skill" : "installation"
+	},
+	{
+		"id" : 692,
+		"jobtitle_id" : 86,
+		"skill" : "sealant application"
+	},
+	{
+		"id" : 693,
+		"jobtitle_id" : 86,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 694,
+		"jobtitle_id" : 87,
+		"skill" : "structural steel installation"
+	},
+	{
+		"id" : 695,
+		"jobtitle_id" : 87,
+		"skill" : "rigging"
+	},
+	{
+		"id" : 696,
+		"jobtitle_id" : 87,
+		"skill" : "welding"
+	},
+	{
+		"id" : 697,
+		"jobtitle_id" : 88,
+		"skill" : "Scaffold assembly"
+	},
+	{
+		"id" : 698,
+		"jobtitle_id" : 88,
+		"skill" : "safety practices"
+	},
+	{
+		"id" : 699,
+		"jobtitle_id" : 89,
+		"skill" : "Team leadership"
+	},
+	{
+		"id" : 700,
+		"jobtitle_id" : 89,
+		"skill" : "production planning"
+	},
+	{
+		"id" : 701,
+		"jobtitle_id" : 89,
+		"skill" : "quality control"
+	},
+	{
+		"id" : 702,
+		"jobtitle_id" : 90,
+		"skill" : "Metal casting"
+	},
+	{
+		"id" : 703,
+		"jobtitle_id" : 90,
+		"skill" : " mold preparation"
+	},
+	{
+		"id" : 704,
+		"jobtitle_id" : 90,
+		"skill" : "furnace operation"
+	},
+	{
+		"id" : 705,
+		"jobtitle_id" : 90,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 706,
+		"jobtitle_id" : 91,
+		"skill" : "Press operation"
+	},
+	{
+		"id" : 707,
+		"jobtitle_id" : 91,
+		"skill" : "ink mixing"
+	},
+	{
+		"id" : 708,
+		"jobtitle_id" : 91,
+		"skill" : "quality control"
+	},
+	{
+		"id" : 709,
+		"jobtitle_id" : 91,
+		"skill" : "maintenance"
+	},
+	{
+		"id" : 710,
+		"jobtitle_id" : 92,
+		"skill" : "Saw operation"
+	},
+	{
+		"id" : 711,
+		"jobtitle_id" : 92,
+		"skill" : "lumber handling"
+	},
+	{
+		"id" : 712,
+		"jobtitle_id" : 92,
+		"skill" : "maintenance"
+	},
+	{
+		"id" : 713,
+		"jobtitle_id" : 92,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 714,
+		"jobtitle_id" : 93,
+		"skill" : "Cargo loading/unloading"
+	},
+	{
+		"id" : 715,
+		"jobtitle_id" : 93,
+		"skill" : "equipment operation"
+	},
+	{
+		"id" : 716,
+		"jobtitle_id" : 93,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 717,
+		"jobtitle_id" : 93,
+		"skill" : "inventory managemen"
+	},
+	{
+		"id" : 718,
+		"jobtitle_id" : 94,
+		"skill" : "Pest identification"
+	},
+	{
+		"id" : 719,
+		"jobtitle_id" : 94,
+		"skill" : "chemical use"
+	},
+	{
+		"id" : 720,
+		"jobtitle_id" : 94,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 721,
+		"jobtitle_id" : 94,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 722,
+		"jobtitle_id" : 95,
+		"skill" : "Elevator installation"
+	},
+	{
+		"id" : 723,
+		"jobtitle_id" : 95,
+		"skill" : "repair"
+	},
+	{
+		"id" : 724,
+		"jobtitle_id" : 95,
+		"skill" : "troubleshooting"
+	},
+	{
+		"id" : 725,
+		"jobtitle_id" : 95,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 726,
+		"jobtitle_id" : 96,
+		"skill" : "Hair cutting"
+	},
+	{
+		"id" : 727,
+		"jobtitle_id" : 96,
+		"skill" : "styling, coloring"
+	},
+	{
+		"id" : 728,
+		"jobtitle_id" : 96,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 729,
+		"jobtitle_id" : 96,
+		"skill" : "sanitation practices"
+	},
+	{
+		"id" : 730,
+		"jobtitle_id" : 97,
+		"skill" : "Organization"
+	},
+	{
+		"id" : 731,
+		"jobtitle_id" : 97,
+		"skill" : "communication"
+	},
+	{
+		"id" : 732,
+		"jobtitle_id" : 97,
+		"skill" : "multitasking"
+	},
+	{
+		"id" : 733,
+		"jobtitle_id" : 97,
+		"skill" : "creativity"
+	},
+	{
+		"id" : 734,
+		"jobtitle_id" : 98,
+		"skill" : "Communication"
+	},
+	{
+		"id" : 735,
+		"jobtitle_id" : 98,
+		"skill" : "storytelling"
+	},
+	{
+		"id" : 736,
+		"jobtitle_id" : 98,
+		"skill" : "local knowledge"
+	},
+	{
+		"id" : 737,
+		"jobtitle_id" : 98,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 738,
+		"jobtitle_id" : 99,
+		"skill" : "Animal handling"
+	},
+	{
+		"id" : 739,
+		"jobtitle_id" : 99,
+		"skill" : "grooming techniques"
+	},
+	{
+		"id" : 740,
+		"jobtitle_id" : 99,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 741,
+		"jobtitle_id" : 100,
+		"skill" : "Animal care"
+	},
+	{
+		"id" : 742,
+		"jobtitle_id" : 101,
+		"skill" : " communication"
+	},
+	{
+		"id" : 743,
+		"jobtitle_id" : 101,
+		"skill" : "organization"
+	},
+	{
+		"id" : 744,
+		"jobtitle_id" : 101,
+		"skill" : "time management"
+	},
+	{
+		"id" : 745,
+		"jobtitle_id" : 102,
+		"skill" : "Hive maintenance"
+	},
+	{
+		"id" : 746,
+		"jobtitle_id" : 102,
+		"skill" : "honey extraction"
+	},
+	{
+		"id" : 747,
+		"jobtitle_id" : 102,
+		"skill" : "bee care"
+	},
+	{
+		"id" : 748,
+		"jobtitle_id" : 102,
+		"skill" : "safety protocols"
+	},
+	{
+		"id" : 749,
+		"jobtitle_id" : 103,
+		"skill" : "Animal care"
+	},
+	{
+		"id" : 750,
+		"jobtitle_id" : 103,
+		"skill" : "breeding techniques"
+	},
+	{
+		"id" : 751,
+		"jobtitle_id" : 103,
+		"skill" : "record keeping"
+	},
+	{
+		"id" : 752,
+		"jobtitle_id" : 103,
+		"skill" : "veterinary assistance"
+	},
+	{
+		"id" : 753,
+		"jobtitle_id" : 104,
+		"skill" : "Exercise knowledge"
+	},
+	{
+		"id" : 754,
+		"jobtitle_id" : 104,
+		"skill" : " motivational skills"
+	},
+	{
+		"id" : 755,
+		"jobtitle_id" : 104,
+		"skill" : "workout planning"
+	},
+	{
+		"id" : 756,
+		"jobtitle_id" : 104,
+		"skill" : "customer service"
+	},
+	{
+		"id" : 757,
+		"jobtitle_id" : 105,
+		"skill" : "Physical strength"
+	},
+	{
+		"id" : 758,
+		"jobtitle_id" : 105,
+		"skill" : "stamina"
+	},
+	{
+		"id" : 759,
+		"jobtitle_id" : 105,
+		"skill" : "attention to safety"
+	},
+	{
+		"id" : 760,
+		"jobtitle_id" : 106,
+		"skill" : "knowledge of surveying techniques"
+	},
+	{
+		"id" : 761,
+		"jobtitle_id" : 106,
+		"skill" : "problem-solving"
+	},
+	{
+		"id" : 762,
+		"jobtitle_id" : 107,
+		"skill" : "Communication"
+	},
+	{
+		"id" : 763,
+		"jobtitle_id" : 108,
+		"skill" : "Physical Stamina"
+	},
+	{
+		"id" : 764,
+		"jobtitle_id" : 108,
+		"skill" : "Time Management"
+	},
+	{
+		"id" : 765,
+		"jobtitle_id" : 108,
+		"skill" : "Adaptability"
+	},
+	{
+		"id" : 766,
+		"jobtitle_id" : 109,
+		"skill" : "Customer Service"
+	},
+	{
+		"id" : 767,
+		"jobtitle_id" : 109,
+		"skill" : "Communication"
+	},
+	{
+		"id" : 768,
+		"jobtitle_id" : 109,
+		"skill" : "Multi-tasking"
+	},
+	{
+		"id" : 769,
+		"jobtitle_id" : 109,
+		"skill" : "Time Management"
+	},
+	{
+		"id" : 770,
+		"jobtitle_id" : 110,
+		"skill" : "Physical stamina"
+	},
+	{
+		"id" : 771,
+		"jobtitle_id" : 110,
+		"skill" : "Safety Awareness"
+	},
+	{
+		"id" : 772,
+		"jobtitle_id" : 111,
+		"skill" : "Craftsmanship"
+	},
+	{
+		"id" : 773,
+		"jobtitle_id" : 111,
+		"skill" : "Knowledge of Materials"
+	},
+	{
+		"id" : 774,
+		"jobtitle_id" : 111,
+		"skill" : "Detail-Oriented"
+	},
+	{
+		"id" : 775,
+		"jobtitle_id" : 111,
+		"skill" : "Physical Stamina"
+	},
+	{
+		"id" : 776,
+		"jobtitle_id" : 112,
+		"skill" : "Knowledge in Cable Installation"
+	},
+	{
+		"id" : 777,
+		"jobtitle_id" : 112,
+		"skill" : "Customer Service"
+	},
+	{
+		"id" : 778,
+		"jobtitle_id" : 112,
+		"skill" : "Safety Awareness"
+	}
+]

@@ -1,0 +1,450 @@
+[
+	{
+		"id" : 1,
+		"name" : "Electrician"
+	},
+	{
+		"id" : 2,
+		"name" : "Conductor"
+	},
+	{
+		"id" : 3,
+		"name" : "Plumber/pipeshifter"
+	},
+	{
+		"id" : 4,
+		"name" : "Mason"
+	},
+	{
+		"id" : 5,
+		"name" : "Cook"
+	},
+	{
+		"id" : 6,
+		"name" : "Delivery Boy"
+	},
+	{
+		"id" : 7,
+		"name" : "Janitor"
+	},
+	{
+		"id" : 8,
+		"name" : "Driver"
+	},
+	{
+		"id" : 9,
+		"name" : "Painter"
+	},
+	{
+		"id" : 10,
+		"name" : "Welder"
+	},
+	{
+		"id" : 11,
+		"name" : "Truck driver"
+	},
+	{
+		"id" : 12,
+		"name" : "House Maid"
+	},
+	{
+		"id" : 13,
+		"name" : "Nurse, Registered Nurse(RN)"
+	},
+	{
+		"id" : 14,
+		"name" : "Telecaller"
+	},
+	{
+		"id" : 15,
+		"name" : "Assembly line worker"
+	},
+	{
+		"id" : 16,
+		"name" : "Mechanic"
+	},
+	{
+		"id" : 17,
+		"name" : "Construction worker"
+	},
+	{
+		"id" : 18,
+		"name" : "Assistant cook"
+	},
+	{
+		"id" : 19,
+		"name" : "Security Guard"
+	},
+	{
+		"id" : 20,
+		"name" : "Laundry worker (dhobi)"
+	},
+	{
+		"id" : 21,
+		"name" : "Farmworker"
+	},
+	{
+		"id" : 22,
+		"name" : "Bartendor"
+	},
+	{
+		"id" : 23,
+		"name" : "Cleaning crew (restaurants)"
+	},
+	{
+		"id" : 24,
+		"name" : "Pest Control"
+	},
+	{
+		"id" : 25,
+		"name" : "AC Cleaning"
+	},
+	{
+		"id" : 26,
+		"name" : "Appliance machine technician (Washing Machine Repair)"
+	},
+	{
+		"id" : 27,
+		"name" : "Bathroom Cleaning"
+	},
+	{
+		"id" : 28,
+		"name" : "Tailor (sewing)"
+	},
+	{
+		"id" : 29,
+		"name" : "Shutter Carpenter"
+	},
+	{
+		"id" : 30,
+		"name" : "Carpenter "
+	},
+	{
+		"id" : 31,
+		"name" : "Pharmacist"
+	},
+	{
+		"id" : 32,
+		"name" : "House Keeping "
+	},
+	{
+		"id" : 33,
+		"name" : "Chef"
+	},
+	{
+		"id" : 34,
+		"name" : "Barista"
+	},
+	{
+		"id" : 35,
+		"name" : "Accountant"
+	},
+	{
+		"id" : 36,
+		"name" : "Senior citizen caregiver"
+	},
+	{
+		"id" : 37,
+		"name" : "Gardener"
+	},
+	{
+		"id" : 38,
+		"name" : "Drafter"
+	},
+	{
+		"id" : 39,
+		"name" : "Documentation Writer"
+	},
+	{
+		"id" : 40,
+		"name" : "Office Boy/Girl"
+	},
+	{
+		"id" : 41,
+		"name" : "Teacher"
+	},
+	{
+		"id" : 42,
+		"name" : "Sales Boy/Girl"
+	},
+	{
+		"id" : 43,
+		"name" : "Tutor"
+	},
+	{
+		"id" : 44,
+		"name" : "Retail Sales"
+	},
+	{
+		"id" : 45,
+		"name" : "Billing"
+	},
+	{
+		"id" : 46,
+		"name" : "Waiter"
+	},
+	{
+		"id" : 47,
+		"name" : "Cashier"
+	},
+	{
+		"id" : 48,
+		"name" : "Baker"
+	},
+	{
+		"id" : 49,
+		"name" : "Tandoor Cook"
+	},
+	{
+		"id" : 50,
+		"name" : "Biryani Cook"
+	},
+	{
+		"id" : 51,
+		"name" : "Dish Washer"
+	},
+	{
+		"id" : 52,
+		"name" : "X Ray Technician"
+	},
+	{
+		"id" : 53,
+		"name" : "CT/MRI Technician"
+	},
+	{
+		"id" : 54,
+		"name" : "Lab Technician"
+	},
+	{
+		"id" : 55,
+		"name" : "Store Keeper "
+	},
+	{
+		"id" : 56,
+		"name" : "Inventory Manager"
+	},
+	{
+		"id" : 57,
+		"name" : "Dispatcher"
+	},
+	{
+		"id" : 58,
+		"name" : "Bussers"
+	},
+	{
+		"id" : 59,
+		"name" : "Forklift Operater"
+	},
+	{
+		"id" : 60,
+		"name" : "Valet Drivers"
+	},
+	{
+		"id" : 61,
+		"name" : "HVAC technician"
+	},
+	{
+		"id" : 62,
+		"name" : "Phlebotomist"
+	},
+	{
+		"id" : 63,
+		"name" : "Patient Transporter"
+	},
+	{
+		"id" : 64,
+		"name" : "Surgical Technician"
+	},
+	{
+		"id" : 65,
+		"name" : "Ambulance driver"
+	},
+	{
+		"id" : 66,
+		"name" : "Bartender"
+	},
+	{
+		"id" : 67,
+		"name" : "Crane Operator"
+	},
+	{
+		"id" : 68,
+		"name" : "Locksmith"
+	},
+	{
+		"id" : 69,
+		"name" : "Radiologic Technologist"
+	},
+	{
+		"id" : 70,
+		"name" : "Nursery Worker"
+	},
+	{
+		"id" : 71,
+		"name" : "Farm Laborer"
+	},
+	{
+		"id" : 72,
+		"name" : "Tractor Operator"
+	},
+	{
+		"id" : 73,
+		"name" : "Poultry Worker"
+	},
+	{
+		"id" : 74,
+		"name" : "Shelf Stocker"
+	},
+	{
+		"id" : 75,
+		"name" : "Warehouse Associate"
+	},
+	{
+		"id" : 76,
+		"name" : "Server"
+	},
+	{
+		"id" : 77,
+		"name" : "Tutor"
+	},
+	{
+		"id" : 78,
+		"name" : "Hotel cleaner"
+	},
+	{
+		"id" : 79,
+		"name" : "Cement worker"
+	},
+	{
+		"id" : 80,
+		"name" : "Bricklayer"
+	},
+	{
+		"id" : 81,
+		"name" : "Heavy Equipment Operator"
+	},
+	{
+		"id" : 82,
+		"name" : "Roofer"
+	},
+	{
+		"id" : 83,
+		"name" : "Machinist"
+	},
+	{
+		"id" : 84,
+		"name" : "Quality control inspector"
+	},
+	{
+		"id" : 85,
+		"name" : "Bouncer"
+	},
+	{
+		"id" : 86,
+		"name" : "Glazier"
+	},
+	{
+		"id" : 87,
+		"name" : "Ironworker"
+	},
+	{
+		"id" : 88,
+		"name" : "Scaffolder"
+	},
+	{
+		"id" : 89,
+		"name" : "Production Supervisor"
+	},
+	{
+		"id" : 90,
+		"name" : "Foundry Worker"
+	},
+	{
+		"id" : 91,
+		"name" : "Printing Press Operator"
+	},
+	{
+		"id" : 92,
+		"name" : "Sawmill Worker"
+	},
+	{
+		"id" : 93,
+		"name" : "Port worker"
+	},
+	{
+		"id" : 94,
+		"name" : "Pest Control Technician"
+	},
+	{
+		"id" : 95,
+		"name" : "Elevator Technician"
+	},
+	{
+		"id" : 96,
+		"name" : "Hairdresser/Barber"
+	},
+	{
+		"id" : 97,
+		"name" : "Event Planner"
+	},
+	{
+		"id" : 98,
+		"name" : "Tour Guide"
+	},
+	{
+		"id" : 99,
+		"name" : "Pet Groomer"
+	},
+	{
+		"id" : 100,
+		"name" : "Pet Sitter"
+	},
+	{
+		"id" : 101,
+		"name" : "House Sitter"
+	},
+	{
+		"id" : 102,
+		"name" : "Beekeeper"
+	},
+	{
+		"id" : 103,
+		"name" : "Animal Breeder"
+	},
+	{
+		"id" : 104,
+		"name" : "Fitness Trainer"
+	},
+	{
+		"id" : 105,
+		"name" : "Waste Collector"
+	},
+	{
+		"id" : 106,
+		"name" : "Land Surveyor"
+	},
+	{
+		"id" : 107,
+		"name" : "Rental Car Agent"
+	},
+	{
+		"id" : 108,
+		"name" : "Dishwasher"
+	},
+	{
+		"id" : 109,
+		"name" : "Host/Hostess"
+	},
+	{
+		"id" : 110,
+		"name" : "Tree Trimmer"
+	},
+	{
+		"id" : 111,
+		"name" : "Furniture Repair Technician"
+	},
+	{
+		"id" : 112,
+		"name" : "Cable Installer"
+	}
+]

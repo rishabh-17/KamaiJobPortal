@@ -1,0 +1,22 @@
+[
+	{
+		"id" : 1,
+		"name" : "Less than 10th Pass"
+	},
+	{
+		"id" : 2,
+		"name" : "10th Pass & Above"
+	},
+	{
+		"id" : 3,
+		"name" : "12th Pass & Above"
+	},
+	{
+		"id" : 4,
+		"name" : "Graduate"
+	},
+	{
+		"id" : 5,
+		"name" : "Post Graduate"
+	}
+]

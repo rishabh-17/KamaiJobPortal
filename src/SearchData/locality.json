@@ -1,0 +1,416 @@
+[
+	{
+		"id" : 1,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Arava Colony"
+	},
+	{
+		"id" : 2,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Azad Nagar"
+	},
+	{
+		"id" : 3,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Bhagya Nagar"
+	},
+	{
+		"id" : 4,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Bhavani Nagar"
+	},
+	{
+		"id" : 5,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Birla Nagar"
+	},
+	{
+		"id" : 6,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Budwar Peta"
+	},
+	{
+		"id" : 7,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Cowl Bazaar"
+	},
+	{
+		"id" : 8,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Gandhi Nagar"
+	},
+	{
+		"id" : 9,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Indira Nagar"
+	},
+	{
+		"id" : 10,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Jammulapuram"
+	},
+	{
+		"id" : 11,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Kamalapuram"
+	},
+	{
+		"id" : 12,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Kanyakumari Nagar"
+	},
+	{
+		"id" : 13,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Khadakpura"
+	},
+	{
+		"id" : 14,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Kummari Peta"
+	},
+	{
+		"id" : 15,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Laxmi Nagar"
+	},
+	{
+		"id" : 16,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Maddur Nagar"
+	},
+	{
+		"id" : 17,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Mahatma Gandhi Nagar"
+	},
+	{
+		"id" : 18,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Munagalapadu"
+	},
+	{
+		"id" : 19,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Muslim Colony"
+	},
+	{
+		"id" : 20,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Nehru Nagar"
+	},
+	{
+		"id" : 21,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Old Town"
+	},
+	{
+		"id" : 22,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Patel Nagar"
+	},
+	{
+		"id" : 23,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Prakash Nagar"
+	},
+	{
+		"id" : 24,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Ram Nagar"
+	},
+	{
+		"id" : 25,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Sai Nagar"
+	},
+	{
+		"id" : 26,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Sanjeeva Nagar"
+	},
+	{
+		"id" : 27,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Saraswathi Nagar"
+	},
+	{
+		"id" : 28,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Shastri Nagar"
+	},
+	{
+		"id" : 29,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Srinivas Nagar"
+	},
+	{
+		"id" : 30,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Subhash Nagar"
+	},
+	{
+		"id" : 31,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Thimmapuram"
+	},
+	{
+		"id" : 32,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Vengalapuram"
+	},
+	{
+		"id" : 33,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Vidyanagar"
+	},
+	{
+		"id" : 34,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Vijaya Nagar Colony"
+	},
+	{
+		"id" : 35,
+		"state_id" : 1,
+		"city_id" : 1,
+		"location" : "Yerragunta"
+	},
+	{
+		"id" : 36,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Ambedkar Nagar"
+	},
+	{
+		"id" : 37,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Annavaram"
+	},
+	{
+		"id" : 38,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Balaga"
+	},
+	{
+		"id" : 39,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Bangarammapeta"
+	},
+	{
+		"id" : 40,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Bellamkonda Peta"
+	},
+	{
+		"id" : 41,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Dharmapuri"
+	},
+	{
+		"id" : 42,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Gajularega"
+	},
+	{
+		"id" : 43,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Gandhinagar"
+	},
+	{
+		"id" : 44,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Garividi"
+	},
+	{
+		"id" : 45,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Gavarapeta"
+	},
+	{
+		"id" : 46,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Godlimpet"
+	},
+	{
+		"id" : 47,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Gontivari Street"
+	},
+	{
+		"id" : 48,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Gopalapuram"
+	},
+	{
+		"id" : 49,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Isukapalli"
+	},
+	{
+		"id" : 50,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Jaggayyapeta"
+	},
+	{
+		"id" : 51,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Kothapeta"
+	},
+	{
+		"id" : 52,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Krishnapuram"
+	},
+	{
+		"id" : 53,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Lakshmipuram"
+	},
+	{
+		"id" : 54,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Mettapeta"
+	},
+	{
+		"id" : 55,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Modugulapeta"
+	},
+	{
+		"id" : 56,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Narsipeta"
+	},
+	{
+		"id" : 57,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Peddapeta"
+	},
+	{
+		"id" : 58,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Rajam Road"
+	},
+	{
+		"id" : 59,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Ramalayam Street"
+	},
+	{
+		"id" : 60,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Rythu Bazaar"
+	},
+	{
+		"id" : 61,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Santhinagar"
+	},
+	{
+		"id" : 62,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Seethampeta"
+	},
+	{
+		"id" : 63,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Srinivasa Nagar"
+	},
+	{
+		"id" : 64,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Tallavalasa"
+	},
+	{
+		"id" : 65,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Thotapalli"
+	},
+	{
+		"id" : 66,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Velangi"
+	},
+	{
+		"id" : 67,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Velpur"
+	},
+	{
+		"id" : 68,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Venkata Ramana Colony"
+	},
+	{
+		"id" : 69,
+		"state_id" : 1,
+		"city_id" : 2,
+		"location" : "Venkatachalapuram"
+	}
+]
