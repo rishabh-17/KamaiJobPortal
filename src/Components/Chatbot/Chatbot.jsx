@@ -48,21 +48,18 @@ const Chatbot = () => {
   return (
     <>
       <div className="chatbot-icon" onClick={toggleChatbot}>
-        <img src="/assets/img/icons/Chatbot.png" alt="Chatbot" />
+        <img src="assets/img/icons/Chatbot.png" alt="Chatbot" />
       </div>
 
       {isOpen && (
         <div className="chatbot-popup">
           <div className="chatbot-header">
-            <img
-              src="../../public/assets/img/icons/Chatbot.png"
-              alt="Chatbot"
-            />{" "}
+            <img src="assets/img/icons/Chatbot.png" alt="Chatbot" />{" "}
             {/* Add your profile picture URL */}
             <h2>Chatbot</h2>
             <button onClick={toggleChatbot} className="chatbot-close">
               <img
-                src="../../public/assets/img/icons/Cancel.png"
+                src="assets/img/icons/Cancel.png"
                 alt="close"
                 style={{ height: "20px", width: "20px" }}
               />
@@ -97,7 +94,7 @@ const Chatbot = () => {
             />
             <button onClick={handleSend}>
               <img
-                src="../../public/assets/img/icons/send.png"
+                src="assets/img/icons/send.png"
                 alt="sent"
                 style={{ width: "25px" }}
               />
