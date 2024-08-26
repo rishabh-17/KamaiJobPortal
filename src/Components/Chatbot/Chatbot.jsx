@@ -48,7 +48,7 @@ const Chatbot = () => {
   return (
     <>
       <div className="chatbot-icon" onClick={toggleChatbot}>
-        <img src="../../public/assets/img/icons/Chatbot.png" alt="Chatbot" />
+        <img src="/assets/img/icons/Chatbot.png" alt="Chatbot" />
       </div>
 
       {isOpen && (
