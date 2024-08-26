@@ -14,6 +14,7 @@ import { useSearchParams } from "react-router-dom";
 import Select from "react-select";
 import jobTitles from "../../SearchData/job-title.json";
 import loocations from "../../SearchData/location.json";
+import { Modal } from "react-bootstrap";
 
 const ListCandidates = () => {
   const navigate = useNavigate();
@@ -176,6 +177,11 @@ const ListCandidates = () => {
     setOpenFilter(openFilter === filterName ? null : filterName);
   };
 
+  const handleShowVideo = (url) => {
+    setVideoUrl(url);
+    setShowVideoModal(true);
+  };
+
   return (
     <>
       <div className="mx-5 sm:mx-24 min-h-screen mb-12 pt-6">
@@ -210,7 +216,7 @@ const ListCandidates = () => {
               "Skills",
             ].map((filter) => (
               <div key={filter} className="relative">
-                <details className="group [&_summary::-webkit-details-marker]:hidden">
+                <details className="group [&_summary::-webkit-details-marker]:hipen">
                   <summary
                     className="flex cursor-pointer rounded-full px-2 items-center gap-2 border border-gray-400 pb-1 text-gray-900 transition hover:border-gray-600"
                     onClick={() => handleFilterClick(filter)}
@@ -225,7 +231,7 @@ const ListCandidates = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
-                        strokeWidth="1.5"
+                        strokeWiph="1.5"
                         stroke="currentColor"
                         className="h-4 w-4"
                       >
@@ -240,7 +246,7 @@ const ListCandidates = () => {
                 </details>
                 <div
                   className={`z-50 absolute start-0 top-auto mt-2 ${
-                    openFilter === filter ? "block" : "hidden"
+                    openFilter === filter ? "block" : "hipen"
                   }`}
                 >
                   <div className="w-96 rounded border border-gray-200 bg-white">
@@ -279,7 +285,7 @@ const ListCandidates = () => {
                 >
                   <a
                     href="#"
-                    className={`relative block overflow-hidden rounded-lg p-4 sm:p-6 lg:p-8 ${
+                    className={`relative block overflow-hipen rounded-lg p-4 sm:p-6 lg:p-8 ${
                       selected?.jobseekerId === candidate.jobseekerId
                         ? "border border-black"
                         : "border border-gray-100"
@@ -299,7 +305,7 @@ const ListCandidates = () => {
                         </p>
                       </div>
 
-                      <div className="hidden sm:block sm:shrink-0">
+                      <div className="hipen sm:block sm:shrink-0">
                         <img
                           alt=""
                           src={
@@ -321,15 +327,15 @@ const ListCandidates = () => {
 
                     <dl className="mt-6 flex gap-4 sm:gap-6">
                       <div className="flex flex-col-reverse">
-                        <dd className="text-xs text-gray-500">
+                        <p className="text-xs text-gray-500">
                           {candidate.email || "No email provided"}
-                        </dd>
+                        </p>
                       </div>
 
                       <div className="flex flex-col-reverse">
-                        <dd className="text-xs text-gray-500">
+                        <p className="text-xs text-gray-500">
                           {candidate.mobileNumber}
-                        </dd>
+                        </p>
                       </div>
                     </dl>
                   </a>
@@ -349,9 +355,9 @@ const ListCandidates = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fill-rule="evenop"
                         d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clip-rule="evenop"
                       />
                     </svg>
                   </a>
@@ -382,9 +388,9 @@ const ListCandidates = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fill-rule="evenop"
                         d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                        clip-rule="evenodd"
+                        clip-rule="evenop"
                       />
                     </svg>
                   </a>
@@ -392,20 +398,20 @@ const ListCandidates = () => {
               </ol>
             </div>
 
-            <div className="hidden sm:block col-span-2">
+            <div className="hipen sm:block col-span-2">
               {selected && (
                 <article className="rounded-xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8">
                   <div className="flex items-start w-full sm:gap-8">
-                    {selected?.jobseekerDTO?.profilePicKey ? (
+                    {selected?.jobseekerpO?.profilePicKey ? (
                       <img
-                        src={selected?.jobseekerDTO?.profilePicKey}
+                        src={selected?.jobseekerpO?.profilePicKey}
                         className="h-20 w-20 rounded-full"
                         alt="Profile Picture"
                       />
                     ) : (
                       <div
-                        className="hidden sm:grid sm:h-20 sm:w-20 sm:shrink-0 sm:place-content-center sm:rounded-full sm:border-2 sm:border-amber-500"
-                        aria-hidden="true"
+                        className="hipen sm:grid sm:h-20 sm:w-20 sm:shrink-0 sm:place-content-center sm:rounded-full sm:border-2 sm:border-amber-500"
+                        aria-hipen="true"
                       >
                         <div className="flex items-center gap-1">
                           <span className="h-8 w-0.5 rounded-full bg-amber-500"></span>
@@ -438,7 +444,7 @@ const ListCandidates = () => {
                               <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                strokeWidth="2"
+                                strokeWiph="2"
                                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                               ></path>
                             </svg>
@@ -447,13 +453,23 @@ const ListCandidates = () => {
                             </p>
                           </div>
                         </div>
+                        <div>
+                          <button
+                            onClick={() => {
+                              handleShowVideo(
+                                selected?.jobseekerpO?.videoResumeKey
+                              );
+                            }}
+                            className="rounded bg-[#130160] mx-1 hover:bg-amber-500 px-4 py-1.5 text-md font-medium text-white"
+                          >
+                            Video CV
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <hr className="my-4" />
-
-                  {/* Video Resume Section */}
 
                   <div className="overflow-auto h-[400px]">
                     <h3 className="mt-4 text-lg font-medium sm:text-xl">
@@ -461,87 +477,65 @@ const ListCandidates = () => {
                         Candidate Details
                       </a>
                     </h3>
-                    <h3 className="text-lg font-medium">Video Profile</h3>
-                    {selected?.jobseekerDTO?.videoResumeKey && (
-                      <div className="mb-4 flex justify-center">
-                        <video
-                          src={selected?.jobseekerDTO?.videoResumeKey}
-                          controls
-                          className="mt-2  h-80 rounded-md shadow-md"
-                        ></video>
-                      </div>
-                    )}
                     <div className="flow-root mx-2">
                       <dl className="-my-3 divide-y divide-gray-100 text-sm">
-                        {/* Full Name */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">
-                            Full Name
-                          </dt>
-                          <dd className="text-gray-700 sm:col-span-2">
+                          <p className="font-medium text-gray-900">Full Name</p>
+                          <p className="text-gray-700 sm:col-span-2">
                             {selected.name}
-                          </dd>
+                          </p>
                         </div>
 
-                        {/* Location */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">
-                            Location
-                          </dt>
-                          <dd className="text-gray-700 sm:col-span-2">
+                          <p className="font-medium text-gray-900">Location</p>
+                          <p className="text-gray-700 sm:col-span-2">
                             {selected.location}
-                          </dd>
+                          </p>
                         </div>
 
-                        {/* Profile Headline */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">
+                          <p className="font-medium text-gray-900">
                             Profile Headline
-                          </dt>
-                          <dd className="text-gray-700 sm:col-span-2">
+                          </p>
+                          <p className="text-gray-700 sm:col-span-2">
                             {selected.profileHeadline ||
                               "No profile headline available"}
-                          </dd>
+                          </p>
                         </div>
 
                         {/* Email */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">Email</dt>
-                          <dd className="text-gray-700 sm:col-span-2">
+                          <p className="font-medium text-gray-900">Email</p>
+                          <p className="text-gray-700 sm:col-span-2">
                             {selected.email || "No email provided"}
-                          </dd>
+                          </p>
                         </div>
 
-                        {/* Mobile Number */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">
+                          <p className="font-medium text-gray-900">
                             Mobile Number
-                          </dt>
-                          <dd className="text-gray-700 sm:col-span-2">
+                          </p>
+                          <p className="text-gray-700 sm:col-span-2">
                             {selected.mobileNumber}
-                          </dd>
+                          </p>
                         </div>
 
-                        {/* Languages */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">
-                            Languages
-                          </dt>
-                          <dd className="text-gray-700 sm:col-span-2">
+                          <p className="font-medium text-gray-900">Languages</p>
+                          <p className="text-gray-700 sm:col-span-2">
                             {selected.languageList}
-                          </dd>
+                          </p>
                         </div>
 
-                        {/* Education Details */}
-                        {selected?.jobseekerDTO?.educationDetails?.length >
+                        {selected?.jobseekerpO?.educationDetails?.length >
                           0 && (
                           <>
                             <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                              <dt className="font-medium text-gray-900">
+                              <p className="font-medium text-gray-900">
                                 Education
-                              </dt>
-                              <dd className="text-gray-700 sm:col-span-2">
-                                {selected?.jobseekerDTO?.educationDetails.map(
+                              </p>
+                              <p className="text-gray-700 sm:col-span-2">
+                                {selected?.jobseekerpO?.educationDetails.map(
                                   (education, index) => (
                                     <div key={index}>
                                       {education.degree} from{" "}
@@ -550,27 +544,24 @@ const ListCandidates = () => {
                                         education.startDate
                                       ).getFullYear()}{" "}
                                       -{" "}
-                                      {new Date(
-                                        education.endDate
-                                      ).getFullYear()}
+                                      {new Date(education.enpate).getFullYear()}
                                       )
                                     </div>
                                   )
                                 )}
-                              </dd>
+                              </p>
                             </div>
                           </>
                         )}
 
-                        {/* Work Experience */}
-                        {selected?.jobseekerDTO?.workExperience?.length > 0 && (
+                        {selected?.jobseekerpO?.workExperience?.length > 0 && (
                           <>
                             <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                              <dt className="font-medium text-gray-900">
+                              <p className="font-medium text-gray-900">
                                 Work Experience
-                              </dt>
-                              <dd className="text-gray-700 sm:col-span-2">
-                                {selected?.jobseekerDTO?.workExperience?.map(
+                              </p>
+                              <p className="text-gray-700 sm:col-span-2">
+                                {selected?.jobseekerpO?.workExperience?.map(
                                   (experience, index) => (
                                     <div key={index}>
                                       {experience.jobTitle} at{" "}
@@ -580,27 +571,26 @@ const ListCandidates = () => {
                                       ).getFullYear()}{" "}
                                       -{" "}
                                       {new Date(
-                                        experience.endDate
+                                        experience.enpate
                                       ).getFullYear()}
                                       )
                                     </div>
                                   )
                                 )}
-                              </dd>
+                              </p>
                             </div>
                           </>
                         )}
 
-                        {/* Preferred Job Roles */}
                         <div className="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
-                          <dt className="font-medium text-gray-900">
+                          <p className="font-medium text-gray-900">
                             Preferred Job Roles
-                          </dt>
-                          <dd className="text-gray-700 sm:col-span-2">
-                            {selected?.jobseekerDTO?.preferredJobRoles
+                          </p>
+                          <p className="text-gray-700 sm:col-span-2">
+                            {selected?.jobseekerpO?.preferredJobRoles
                               ?.map((role) => role.preferredJobRoleName)
                               ?.join(", ")}
-                          </dd>
+                          </p>
                         </div>
                       </dl>
                     </div>
@@ -615,6 +605,18 @@ const ListCandidates = () => {
           </div>
         )}
       </div>
+      <Modal
+        show={showVideoModal}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        onHide={() => setShowVideoModal(false)}
+      >
+        <Modal.Header closeButton>
+          {" "}
+          <Modal.Title id="contained-modal-title-vcenter">Video CV</Modal.Title>
+        </Modal.Header>
+        <video src={selected.videoUrl} className="m-2" controls></video>
+      </Modal>
     </>
   );
 };

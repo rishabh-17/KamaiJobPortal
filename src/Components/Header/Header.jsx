@@ -55,7 +55,7 @@ const Header = () => {
   }, [showRegistrationPage, videoStreamingOpen, navigate]);
 
   useEffect(() => {
-    fetchNotifications();
+    // fetchNotifications();
   });
   const handleContinue = () => {
     // setShowOtpPage(true);
@@ -75,6 +75,7 @@ const Header = () => {
   const notificationClick = () => {
     // handleOpenProfileModal("employer");
     setIsOpen(true);
+
   };
   // Function to open the modal
   const handleProfileClick = () => {
@@ -278,26 +279,7 @@ const Header = () => {
                               </li>
                             )}
                             <li>
-                              <Link to="/TermsAndConditionsPage">
-                                Terms & Conditions
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/SecurityAndPrivacyPage">
-                                Security & Privacy
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/FAQsPage">FAQs</Link>
-                            </li>
-                            <li>
                               <Link to="/PricingPlanPage">Pricing Plan</Link>
-                            </li>
-                            <li>
-                              <Link to="/RefundPolicyPage">Refund Policy</Link>
-                            </li>
-                            <li>
-                              <Link to="/CandidateFeedbackpage">Feedback</Link>
                             </li>
                             <li>
                               {(userType === "employer" ||

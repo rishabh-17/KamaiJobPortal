@@ -71,19 +71,16 @@ const EmployerRegistration = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container-fluid mx-auto px-4 py-3">
       <ToastContainer />
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
-          <img src="assets/img/banner/image.png" alt="" />
-        </div>
-        <div className="flex justify-center items-center">
-          <div className="w-full max-w-2xl bg-white p-8 rounded-xl shadow-lg">
+      <div className="container-fluid">
+        <div className="flex justify-center">
+          <div className="w-full max-w-6xl bg-white p-8 rounded-xl shadow-lg">
             <h2 className="text-2xl font-bold text-center text-[#130160] mb-6">
               Employer Registration
             </h2>
             <form onSubmit={handleSubmit}>
-              <div className="grid grid-cols-1 gap-6">
+              <div className="grid grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700">
                     Name
