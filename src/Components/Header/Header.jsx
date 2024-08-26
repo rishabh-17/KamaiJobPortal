@@ -75,7 +75,6 @@ const Header = () => {
   const notificationClick = () => {
     // handleOpenProfileModal("employer");
     setIsOpen(true);
-
   };
   // Function to open the modal
   const handleProfileClick = () => {
@@ -271,6 +270,13 @@ const Header = () => {
                                 </Link>
                               </li>
                             )}
+
+                            <li>
+                              <Link to="/AvatarSettings">
+                                Video Description
+                              </Link>
+                            </li>
+
                             {userType === "candidate" && (
                               <li>
                                 <Link to="/candidateDetailsPage">
