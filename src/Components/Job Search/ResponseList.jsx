@@ -123,13 +123,7 @@ const ListCandidates = () => {
   const [page, setPage] = useState(1);
   const [paginationArray, setPaginationArray] = useState([]);
   const [openFilter, setOpenFilter] = useState(null);
-  const [filters, setFilters] = useState({
-    salary: null,
-    jobType: null,
-    areaRange: null,
-    category: null,
-    tags: null,
-  });
+  const [filters, setFilters] = useState({});
   const {
     candidatesResponse,
     orgId,
@@ -345,7 +339,7 @@ const ListCandidates = () => {
                 </details>
                 <div
                   className={`z-50 absolute start-0 top-auto mt-2 ${
-                    openFilter === filter ? "block" : "hipen"
+                    openFilter === filter ? "block" : "hidden"
                   }`}
                 >
                   <div className="w-96 rounded border border-gray-200 bg-white">
