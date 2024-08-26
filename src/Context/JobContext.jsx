@@ -415,6 +415,10 @@ const JobContextProvider = ({ children }) => {
       }${locationId ? `&locationId=${locationId}` : ""}`,
       {
         method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${profileToken}`,
+        },
       }
     )
       .then((response) => response.json())
@@ -576,10 +580,6 @@ const JobContextProvider = ({ children }) => {
       }${locationId ? `&locationId=${locationId}` : ""}`,
       {
         method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${profileToken}`,
-        },
       }
     )
       .then((response) => response.json())
